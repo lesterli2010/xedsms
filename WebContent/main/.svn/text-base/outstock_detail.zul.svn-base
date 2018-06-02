@@ -1,0 +1,81 @@
+<?page title="出库单详情" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="contentWin" 
+		use="com.hxdq.xedsms.web.window.OutstockDetailWindow">
+		
+		<div align="center">
+			
+				<div width="60%" align="left">
+				<grid align="left">
+					<columns visible="false">
+						<column width="30%" />
+						<column width="70%" />
+					</columns>
+					<rows>
+						<row spans="2">
+							<div align="center">
+								<label id="p1HeaderLabel"
+									style="font-weight:bold;font-size:20pt" value="出库单详情" />
+							</div>
+						</row>
+						<row>
+							
+							<label value="出库单号" style="font-size:12pt"/>
+							
+							<label id="outidLabel" style="font-size:12pt"/>
+							
+						</row>
+						<row>
+							
+							<label value="客户" style="font-size:12pt"/>
+							
+							<label id="customer" style="font-size:12pt"/>
+							
+						</row>
+						<row>
+							<label value="销售日期" style="font-size:12pt"/>
+							<label id="saletime" style="font-size:12pt"/>
+						</row>
+						<row>
+							<label value="出库时间" style="font-size:12pt"/>
+							<label id="outtime" style="font-size:12pt"/>
+						</row>
+						<row>
+							<label value="销售员" style="font-size:12pt"/>
+							<label id="saler" style="font-size:12pt"/>
+						</row>
+						<row>
+							<label value="出库操作员" style="font-size:12pt"/>
+							<label id="operator" style="font-size:12pt"/>
+						</row>
+						<row>
+							<label value="销售地区" style="font-size:12pt"/>
+							<label id="city" style="font-size:12pt"/>
+						</row>
+					</rows>
+				</grid>
+				
+				</div>
+				<div width="75%" align="left">
+				
+				<label id="recNumLabel" value="出库产品列表：" style="font-size:12pt"/>
+				<grid id="listGrid" align="center" width="100%" style="font-size:18pt">
+					<columns>
+						<column label="产品" width="30%" style="font-size:14pt"/>
+						<column label="数量" width="10%" style="font-size:14pt"/>
+						<column label="单价" width="10%" style="font-size:14pt"/>
+						<column label="用途" width="10%" style="font-size:14pt"/>
+						<column label="条码" width="40%" style="font-size:14pt"/>
+					</columns>
+				</grid>
+				<div align="right">
+					<button id="printBtn" label="打印" xmlns:w="http://www.zkoss.org/2005/zk/client" w:onClick="window.print();" image="/img/Print.png"/>
+					<button id="closeBtn" label="关闭" xmlns:w="http://www.zkoss.org/2005/zk/client" w:onClick="window.close();" image="/img/close.png"/>
+				</div>
+			</div>
+
+			
+		</div>
+		
+	</window>
+</zk>

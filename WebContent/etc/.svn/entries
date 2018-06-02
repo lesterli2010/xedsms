@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="246"
+   name=""
+   committed-date="2012-07-05T04:59:40.626928Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/WebContent/etc"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   name="log4j"
+   kind="dir"/>
+<entry
+   name="db"
+   kind="dir"/>
+<entry
+   name="spring-security"
+   kind="dir"/>
+<entry
+   name="properties"
+   kind="dir"/>
+</wc-entries>

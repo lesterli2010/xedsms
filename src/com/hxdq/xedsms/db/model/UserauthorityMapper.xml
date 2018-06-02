@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.model.UserauthorityMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Userauthority" >
+    <id column="userid" property="userid" jdbcType="CHAR" />
+    <result column="authority" property="authority" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    userid, authority
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.UserauthorityExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from user_authority
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from user_authority
+    where userid = #{userid,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from user_authority
+    where userid = #{userid,jdbcType=CHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.hxdq.xedsms.db.model.UserauthorityExample" >
+    delete from user_authority
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.hxdq.xedsms.db.model.Userauthority" >
+    insert into user_authority (userid, authority)
+    values (#{userid,jdbcType=CHAR}, #{authority,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.hxdq.xedsms.db.model.Userauthority" >
+    insert into user_authority
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userid != null" >
+        userid,
+      </if>
+      <if test="authority != null" >
+        authority,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userid != null" >
+        #{userid,jdbcType=CHAR},
+      </if>
+      <if test="authority != null" >
+        #{authority,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.hxdq.xedsms.db.model.UserauthorityExample" resultType="java.lang.Integer" >
+    select count(*) from user_authority
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update user_authority
+    <set >
+      <if test="record.userid != null" >
+        userid = #{record.userid,jdbcType=CHAR},
+      </if>
+      <if test="record.authority != null" >
+        authority = #{record.authority,jdbcType=CHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update user_authority
+    set userid = #{record.userid,jdbcType=CHAR},
+      authority = #{record.authority,jdbcType=CHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hxdq.xedsms.db.model.Userauthority" >
+    update user_authority
+    <set >
+      <if test="authority != null" >
+        authority = #{authority,jdbcType=CHAR},
+      </if>
+    </set>
+    where userid = #{userid,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hxdq.xedsms.db.model.Userauthority" >
+    update user_authority
+    set authority = #{authority,jdbcType=CHAR}
+    where userid = #{userid,jdbcType=CHAR}
+  </update>
+  <select resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.UserauthorityExample" id="selectByExampleWithRowbounds" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from user_authority
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

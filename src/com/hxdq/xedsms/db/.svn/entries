@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2012-06-21T00:48:35.937802Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq/xedsms/db"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   name="model"
+   kind="dir"/>
+<entry
+   name="accessor"
+   kind="dir"/>
+<entry
+   committed-rev="173"
+   name="Mapper.java"
+   text-time="2012-07-05T08:36:16.295544Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="3c106546df5f5d7992b91c21bc2bcdbf"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.389666Z"/>
+<entry
+   committed-rev="173"
+   name="DBAccessor.java"
+   text-time="2012-07-05T08:36:16.311163Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="f131434f607cb671c405e6f5805a4504"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.405284Z"/>
+<entry
+   committed-rev="173"
+   name="DBUtility.java"
+   text-time="2012-07-05T08:36:16.326782Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="2d0b7d9a9434616458bf86abf200ba5b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.467759Z"/>
+<entry
+   name="prisql"
+   kind="dir"/>
+<entry
+   committed-rev="173"
+   name="Example.java"
+   text-time="2012-07-05T08:36:16.342400Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="a348bd6573a459a5e459273661d53fd5"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.233070Z"/>
+<entry
+   committed-rev="173"
+   name="Entity.java"
+   text-time="2012-07-05T08:36:16.358019Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ae9d4f1becd2788ab9b33b391e5aeda8"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.264307Z"/>
+<entry
+   committed-rev="173"
+   name="SSFactory.java"
+   text-time="2012-07-05T08:36:16.358019Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="35ad76704bfebee1506e5a7665c67000"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.279926Z"/>
+</wc-entries>

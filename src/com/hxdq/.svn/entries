@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="197"
+   name=""
+   committed-date="2012-06-25T01:29:47.025444Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   name="xedsms"
+   kind="dir"/>
+</wc-entries>

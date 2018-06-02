@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.prisql.StockstatusMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Stockstatus" >
+    <result column="product_id" property="productId" jdbcType="INTEGER" />
+    <result column="incount" property="incount" jdbcType="INTEGER" />
+    <result column="outcount" property="outcount" jdbcType="INTEGER" />
+    <result column="remaincount" property="remaincount" jdbcType="INTEGER" />
+  </resultMap>
+  <update id="instock" parameterType="HashMap">
+		update stockstatus set
+		incount = incount + #{count},
+		remaincount = remaincount + #{count},
+		updatetime = now()
+		where product_id = #{product_id}
+  </update>
+    <update id="outstock" parameterType="HashMap">
+		update stockstatus set
+		outcount = outcount + #{count},
+		remaincount = remaincount - #{count},
+		updatetime = now()
+		where product_id = #{product_id}
+  </update>
+    <update id="cancel_instock" parameterType="HashMap">
+		update stockstatus set
+		incount = incount - #{count},
+		remaincount = remaincount - #{count},
+		updatetime = now()
+		where product_id = #{product_id}
+  </update>
+    <update id="cancel_outstock" parameterType="HashMap">
+		update stockstatus set
+		outcount = outcount - #{count},
+		remaincount = remaincount + #{count},
+		updatetime = now()
+		where product_id = #{product_id}
+  </update>
+</mapper>

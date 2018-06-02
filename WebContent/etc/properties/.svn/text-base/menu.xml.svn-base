@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Describe menu and sub-menu -->
+<categories>
+	<category id="a1">
+		<icon-url><![CDATA[/img/sale.png]]></icon-url>
+		<label><![CDATA[销售管理]]></label>	
+		<item id="b1">
+			<file-url><![CDATA[/main/welcome.zul]]></file-url>
+			<icon-url><![CDATA[/img/welcome.png]]></icon-url>
+			<label><![CDATA[欢迎页面]]></label>
+		</item>
+		<item id="b2">
+			<file-url><![CDATA[/main/select_outstock.zul]]></file-url>
+			<icon-url><![CDATA[/img/search.png]]></icon-url>
+			<label><![CDATA[销售查询]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_SALER]]></permission>
+		</item>
+	</category>
+	<category id="a6">
+		<icon-url><![CDATA[/img/stock.png]]></icon-url>
+		<label><![CDATA[库存管理]]></label>
+		<permission><![CDATA[ALL]]></permission>
+		<item id="g1">
+			<file-url><![CDATA[/main/instock.zul]]></file-url>
+			<icon-url><![CDATA[/img/instock.png]]></icon-url>
+			<label><![CDATA[产品入库]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		</item>
+		<item id="g2">
+			<file-url><![CDATA[/main/outstock.zul]]></file-url>
+			<icon-url><![CDATA[/img/outstock.png]]></icon-url>
+			<label><![CDATA[产品出库]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		</item>
+		<item id="g3">
+			<file-url><![CDATA[/main/select_instock.zul]]></file-url>
+			<icon-url><![CDATA[/img/search.png]]></icon-url>
+			<label><![CDATA[入库数据查询]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		</item>
+		
+			<item id="g4">
+			<file-url><![CDATA[/main/select_outstock.zul]]></file-url>
+			<icon-url><![CDATA[/img/search.png]]></icon-url>
+			<label><![CDATA[出库数据查询]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		</item>
+		<item id="g5">
+			<file-url><![CDATA[/main/stock_status.zul]]></file-url>
+			<icon-url><![CDATA[/img/search.png]]></icon-url>
+			<label><![CDATA[当前库存]]></label>
+			<permission><![CDATA[ALL]]></permission>
+		</item>
+	</category>
+	<category id="a2">
+		<icon-url><![CDATA[/img/customer.png]]></icon-url>
+		<label><![CDATA[客户管理]]></label>
+		<permission><![CDATA[ROLE_ADMIN,ROLE_SALER]]></permission>
+		<item id="c1">
+			<file-url><![CDATA[/main/add_customer.zul]]></file-url>
+			<icon-url><![CDATA[/img/add.png]]></icon-url>
+			<label><![CDATA[增加客户]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_SALER]]></permission>
+		</item>
+		<item id="c2">
+			<file-url><![CDATA[/main/select_customer.zul]]></file-url>
+			<icon-url><![CDATA[/img/edit.png]]></icon-url>
+			<label><![CDATA[查询修改客户]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_SALER]]></permission>
+		</item>
+	</category>
+	<category id="a3">
+		<icon-url><![CDATA[/img/product.png]]></icon-url>
+		<label><![CDATA[产品列表管理]]></label>
+		<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		<item id="d1">
+			<file-url><![CDATA[/main/add_product.zul]]></file-url>
+			<icon-url><![CDATA[/img/add.png]]></icon-url>
+			<label><![CDATA[增加产品]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		</item>
+		<item id="d2">
+			<file-url><![CDATA[/main/select_product.zul]]></file-url>
+			<icon-url><![CDATA[/img/edit.png]]></icon-url>
+			<label><![CDATA[查询修改产品]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		</item>
+	</category>
+	<category id="a4">
+		<icon-url><![CDATA[/img/saler.png]]></icon-url>
+		<label><![CDATA[销售员管理]]></label>
+		<permission><![CDATA[ROLE_ADMIN]]></permission>
+		<item id="e1">
+			<file-url><![CDATA[/main/add_saler.zul]]></file-url>
+			<icon-url><![CDATA[/img/add.png]]></icon-url>
+			<label><![CDATA[增加销售员]]></label>
+			<permission><![CDATA[ROLE_ADMIN]]></permission>
+		</item>
+		<item id="e2">
+			<file-url><![CDATA[/main/select_saler.zul]]></file-url>
+			<icon-url><![CDATA[/img/edit.png]]></icon-url>
+			<label><![CDATA[查询修改销售员]]></label>
+			<permission><![CDATA[ROLE_ADMIN]]></permission>
+		</item>
+	</category>
+	<category id="a5">
+		<icon-url><![CDATA[/img/sysconfig.png]]></icon-url>
+		<label><![CDATA[系统数据]]></label>
+		<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		<item id="f1">
+			<file-url><![CDATA[/main/other_data.zul]]></file-url>
+			<icon-url><![CDATA[/img/edit.png]]></icon-url>
+			<label><![CDATA[系统数据维护]]></label>
+			<permission><![CDATA[ROLE_ADMIN,ROLE_STOCKER]]></permission>
+		</item>
+	</category>
+	<category id="a8">
+		<icon-url><![CDATA[/img/Profile.png]]></icon-url>
+		<label><![CDATA[帐户设置]]></label>
+		<permission><![CDATA[ALL]]></permission>
+		<item id="h1">
+			<file-url><![CDATA[/main/modify_password.zul]]></file-url>
+			<icon-url><![CDATA[/img/edit.png]]></icon-url>
+			<label><![CDATA[修改密码]]></label>
+			<permission><![CDATA[ALL]]></permission>
+		</item>
+		<item id="h2">
+			<file-url><![CDATA[/main/create_user.zul]]></file-url>
+			<icon-url><![CDATA[/img/add.png]]></icon-url>
+			<label><![CDATA[创建新用户]]></label>
+			<permission><![CDATA[ROLE_ADMIN]]></permission>
+		</item>
+		<item id="h3">
+			<file-url><![CDATA[/main/select_user.zul]]></file-url>
+			<icon-url><![CDATA[/img/search.png]]></icon-url>
+			<label><![CDATA[当前用户列表]]></label>
+			<permission><![CDATA[ROLE_ADMIN]]></permission>
+		</item>
+	</category>
+	
+</categories>

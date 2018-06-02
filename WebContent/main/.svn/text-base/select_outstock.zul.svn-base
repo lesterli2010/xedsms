@@ -1,0 +1,103 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="contentWin" title="出库信息查询" border="normal"
+		use="com.hxdq.xedsms.web.window.SelectOutstockWindow">
+		<div align="center" width="100%">
+			<div align="left" width="70%">
+				<grid>
+				<columns visible="false">
+						<column width="20%" />
+						<column width="40%" />
+						<column width="40%" />
+					</columns>
+					<rows style="border:0px;">
+						<row>
+							<checkbox id="barcodebox"
+								label="按条形码" checked="true"/>
+							
+								<textbox id="barcode" width="90%"/>
+							<label />
+							
+						</row>
+						<row>
+							<checkbox id="outidbox" label="按出库单号"/>
+								<textbox id="outidtb" width="60%"/>
+							<label />
+							
+						</row>
+						<row>
+							<checkbox id="prodbox" label="按产品名称"/>
+							<div>
+								<combobox id="prodCmbx"
+									model="${contentWin.prodListModel}"
+									itemRenderer="${contentWin.prodListRenderer}">
+								</combobox>
+							</div>
+							<label />
+						</row>
+						<row>
+							<checkbox id="datebox"
+								label="按出库日期" />
+							
+								<div>
+									<label id="startDateLabel" value="起始日期" />
+									<datebox id="startdate" format="yyyy-MM-dd"/>
+								</div>
+								<div>
+									<label id="endDateLabel" value="截止日期" />
+									<datebox id="enddate" format="yyyy-MM-dd"/>
+								</div>
+							
+						</row>
+						
+					</rows>
+				</grid>
+				<div align="right">
+					<button id="queryBtn" label="查询"
+						onClick="contentWin.query()" />
+				</div>
+
+			</div>
+			<div width="90%" align="left">
+				<hbox>
+				<label id="recNumLabel" value="记录个数:" />
+				<label id="countLabel"/>
+				<label id="currentPageLabel" value="当前页：" />
+				<label id="pageLabel"/>
+				</hbox>
+				<grid id="listGrid" align="center"
+					model="${contentWin.listModel}"
+					rowRenderer="${contentWin.listRenderer}">
+					<columns>
+						<column label="索引" width="2%"/>
+						<column label="出库单号" width="5%"/>
+						<column label="出库时间" width="15%"/>
+						<column label="销售员" width="8%"/>
+						<column label="客户" width="8%"/>
+						<column label="销售地区" width="9%"/>
+						<column label="产品（名称，数量，单价）" width="20%"/>
+						<column label="详情" width="5%"/>
+					</columns>
+				</grid>
+
+				<grid style="border:0px;">
+					<rows style="border:0px;">
+						<row style="border:0px;">
+							<div align="left">
+								<button id="delBtn" label="撤销出库信息"
+									onClick="contentWin.delete()" image="/img/Delete.png"/>
+							</div>
+							<div align="right">
+								<button label="&lt;&lt;" id="prevBtn"
+									onClick="contentWin.previous()" image="/img/previous.gif"/>
+								<button label="&gt;&gt;" id="nextBtn"
+									onClick="contentWin.next()" image="/img/next.gif"/>
+							</div>
+						</row>
+					</rows>
+				</grid>
+			</div>
+
+		</div>
+	</window>
+</zk>

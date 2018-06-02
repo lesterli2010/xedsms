@@ -1,0 +1,83 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>.starLabel { color:red; width:80%;font-size:14px;}</style>
+	<window id="contentWin" title="创建新销售员" border="normal"
+		use="com.hxdq.xedsms.web.window.AddSalerWindow"
+		xmlns:a="http://www.zkoss.org/2005/zk/annotation">
+		<div align="center">
+			<div id="panel1" width="60%" align="left">
+				<grid align="center">
+					<columns visible="false">
+						<column width="30%" />
+						<column width="70%" />
+					</columns>
+					<rows>
+						<row spans="2">
+							<div align="center">
+								<label id="p1HeaderLabel"
+									style="font-weight:bold;" value="销售员信息" />
+							</div>
+						</row>
+						<row>
+							<div>
+							<label id="nameLabel" value="姓名" />
+							<label value="*" sclass="starLabel" />
+							</div>
+							<hbox>
+							    <a:bind value="saler.name"/>
+								<textbox id="name" width="150"
+									maxlength="1024" constraint="no empty:姓名不能为空!" />
+							</hbox>
+						</row>
+						<row>
+							<div>
+							<label id="phoneLabel" value="电话" />
+							</div>
+							<hbox>
+							    <a:bind value="saler.phone"/>
+								<textbox id="phone" width="150"
+									maxlength="1024"/>
+							</hbox>
+						</row>
+						<row>
+							<div>
+							<label id="positionLabel" value="职位" />
+							</div>
+							<hbox>
+							    <a:bind value="saler.position"/>
+								<textbox id="position" width="150"
+									maxlength="1024"/>
+							</hbox>
+						</row>
+						
+					</rows>
+				</grid>
+				<div align="right">
+					<button id="submitBtn" label="创建"
+						onClick="contentWin.insert()"/>
+				</div>
+			</div>
+
+			<div id="panel2" width="60%" align="left" visible="false">
+				<hbox id="allsucchbx" visible="false">
+					<image src="/img/ok.gif" />
+					<label id="allsuccLabel"
+						value="销售员创建成功!" />
+				</hbox>
+				<hbox id="errorchbx" visible="false">
+					<image src="/img/alert.gif" />
+					<label id="errorLabel"
+						value="销售员创建失败:" />
+					<label id="errorDetailLabel" />
+				</hbox>
+				<div id="rtnDiv" align="left" visible="false">
+					<button id="rtnBtn" label="返回"
+						onClick="contentWin.back()" />
+					<button id="addNextOneBtn" label="继续添加"
+						onClick="contentWin.addNextOne()" />
+				</div>
+			</div>
+		</div>
+
+	</window>
+</zk>

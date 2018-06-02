@@ -1,0 +1,111 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>.starLabel { color:red; width:80%;font-size:14px;}</style>
+	<window id="contentWin" title="创建新用户" border="normal"
+		use="com.hxdq.xedsms.web.window.AddUserWindow"
+		xmlns:a="http://www.zkoss.org/2005/zk/annotation">
+		<div align="center">
+			<div id="panel1" width="60%" align="left">
+				<grid align="center">
+					<columns visible="false">
+						<column width="30%" />
+						<column width="70%" />
+					</columns>
+					<rows>
+						<row spans="2">
+							<div align="center">
+								<label id="p1HeaderLabel"
+									style="font-weight:bold;" value="用户信息" />
+							</div>
+						</row>
+						<row>
+							<div>
+							<label value="用户名" />
+							<label value="*" sclass="starLabel" />
+							</div>
+							<hbox>
+							    <a:bind value="user.userid"/>
+								<textbox id="userid" width="150"
+									maxlength="1024" constraint="no empty:姓名不能为空!" onChanging="contentWin.onCheckUserID(event)"/>
+								<div id="availableDiv"
+									visible="false">
+									<image src="/img/yes.png" />
+									<label
+										value="用户名可以使用！" />
+								</div>
+								<div id="unavailableDiv"
+									visible="false">
+									<image src="/img/no.png" />
+									<label
+										value="用户名已被占用!" />
+								</div>
+							
+							
+							</hbox>
+						</row>
+						<row>
+							<label value="权限" />
+							<combobox id="authority">
+								<comboitem label="系统管理员" value="ROLE_ADMIN"/>
+								<comboitem label="仓库管理员" value="ROLE_STOCKER" />
+								<comboitem label="销售员" value="ROLE_SALER"/>
+							</combobox>
+						</row>
+						<row>
+							<label value="密码" />
+							<label value="默认密码为88888" />
+						</row>
+						
+						<row>
+							<div>
+							<label value="姓名" />
+							</div>
+							<hbox>
+							    <a:bind value="user.name"/>
+								<textbox id="name" width="150"
+									maxlength="1024"/>
+							</hbox>
+						</row>
+						<row>
+							<div>
+							<label value="电话" />
+							</div>
+							<hbox>
+							    <a:bind value="user.phone"/>
+								<textbox id="phone" width="150"
+									maxlength="1024"/>
+							</hbox>
+						</row>
+						
+						
+					</rows>
+				</grid>
+				<div align="right">
+					<button id="submitBtn" label="创建新用户"
+						onClick="contentWin.insert()"/>
+				</div>
+			</div>
+
+			<div id="panel2" width="60%" align="left" visible="false">
+				<hbox id="allsucchbx" visible="false">
+					<image src="/img/ok.gif" />
+					<label id="allsuccLabel"
+						value="销售员创建成功!" />
+				</hbox>
+				<hbox id="errorchbx" visible="false">
+					<image src="/img/alert.gif" />
+					<label id="errorLabel"
+						value="销售员创建失败:" />
+					<label id="errorDetailLabel" />
+				</hbox>
+				<div id="rtnDiv" align="left" visible="false">
+					<button id="rtnBtn" label="返回"
+						onClick="contentWin.back()" />
+					<button id="addNextOneBtn" label="继续添加"
+						onClick="contentWin.addNextOne()" />
+				</div>
+			</div>
+		</div>
+
+	</window>
+</zk>

@@ -1,0 +1,49 @@
+<?page id="ngdirwebportal" title="欢迎使用潍坊恒信电器XED节能灯销售管理系统" contentType="text/html;charset=UTF-8"?>
+<?link  rel="stylesheet" type="text/css" href="~./zul/css/ext.css.dsp"?>
+<?link  rel="stylesheet" type="text/css" href="/css/ngdirwebportal.css.dsp"?>
+<?link  rel="Shortcut Icon"  href="/img/product.png"?>
+<?link  rel="Bookmark"  href="/img/product.png"?> 
+<?script type="text/javascript" src="/js/category.js"?>
+<?script content="jq.IE6_ALPHAFIX=/24x24.png|32x32.png|48x48.png|128x128.png|ButtonBlue.png|ButtonGray.png|small.png|small-sel.png|normal.png|normal-sel.png|large.png|large-sel.png/;"?>
+<?component name="category" extends="button" mold="default" widgetClass="ngdir.Category"?>
+<?component name="categorybar" extends="div" widgetClass="ngdir.Categorybar"?>
+<zk>
+<borderlayout id="main" apply="com.hxdq.xedsms.web.common.MainLayoutComposer">
+
+<north border="none" size="100px" sclass="ngdirweb-header" collapsible="true" >		
+		<div>
+			<div style="float:right;color: #1c5178" top="30%">
+ 				<label id="useridLabel"/>
+ 				<button id="exitBtn" href="/j_spring_security_logout" label="退出" image="/img/exit.png"/>
+ 				<separator orient="vertical"/>
+			</div>
+			<hbox spacing="300px">
+			<categorybar zclass="ngdirweb-categorybar" id="header">
+				<category zclass="ngdirweb-category" forEach="${main.categories}" id="${each.id}" image="${each.icon}" label="${each.label}" 
+				forward="onClick=main.onCategorySelect"/>
+			</categorybar>
+			</hbox>
+			</div>
+	</north>
+
+
+	<west id="westPanel" title="" size="250px" flex="true" splittable="true"
+		minsize="210" maxsize="500" collapsible="true" style="font-size:14pt" >
+		<panel>
+			<toolbar>
+				<label id="searchLabel" value="搜索:" style="font-size:12pt"/><textbox id="searchBox" ctrlKeys="#down#up" focus="true" sclass="ngdirweb-search-inp"/>
+			</toolbar>
+			<panelchildren>
+				<listbox id="itemList" oddRowSclass="non-odd" sclass="ngdirweb-items"
+					itemRenderer="${main.itemRenderer}" model="${main.selectedModel}"  fixedLayout="true" vflex="true">					
+				</listbox>
+			</panelchildren>
+		</panel>
+	</west>
+	<center id="centerPanel" autoscroll="true" flex="true">
+		<include style="padding:4px;" id="xcontents"/>
+	</center>
+
+</borderlayout>
+</zk>
+

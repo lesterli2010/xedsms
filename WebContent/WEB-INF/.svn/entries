@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="197"
+   name=""
+   committed-date="2012-06-25T01:29:47.025444Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/WebContent/WEB-INF"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="197"
+   name="zk.xml"
+   text-time="2012-07-05T08:36:41.332160Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="b61ff7665c766c547d0e44ecca97f3f8"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.793701Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="168"
+   name="web.xml"
+   text-time="2012-07-05T08:36:41.347779Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="f2bd363638492ea774680cc2918d0c61"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:41.300923Z"/>
+</wc-entries>

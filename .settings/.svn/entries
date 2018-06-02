@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="177"
+   name=""
+   committed-date="2012-06-19T03:43:27.741883Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/.settings"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="174"
+   name="org.eclipse.jdt.core.prefs"
+   text-time="2012-07-05T08:36:47.923209Z"
+   committed-date="2012-06-19T03:38:51.341833Z"
+   checksum="d16807cce20893f67cd189f77afa8798"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.610837Z"/>
+<entry
+   committed-rev="174"
+   name="org.eclipse.wst.jsdt.ui.superType.name"
+   text-time="2012-07-05T08:36:47.938828Z"
+   committed-date="2012-06-19T03:38:51.341833Z"
+   checksum="c89686a387d2b12b3c729ce35a0bcb5b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.657693Z"/>
+<entry
+   committed-rev="174"
+   name="org.eclipse.wst.jsdt.ui.superType.container"
+   text-time="2012-07-05T08:36:47.954447Z"
+   committed-date="2012-06-19T03:38:51.341833Z"
+   checksum="b27d1cf62dde4473bab7c433317bb0ce"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.673312Z"/>
+<entry
+   committed-rev="177"
+   name="org.eclipse.core.resources.prefs"
+   text-time="2012-07-05T08:36:47.970065Z"
+   committed-date="2012-06-19T03:43:27.741883Z"
+   checksum="db74d050f75c4becc8be139f17161f54"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.688930Z"/>
+<entry
+   committed-rev="174"
+   name="org.eclipse.wst.common.project.facet.core.xml"
+   text-time="2012-07-05T08:36:47.970065Z"
+   committed-date="2012-06-19T03:38:51.341833Z"
+   checksum="87eb77d0b7e6ef7afc2e40e65ccc369c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.751405Z"/>
+<entry
+   committed-rev="174"
+   name="org.eclipse.jst.common.project.facet.core.prefs"
+   text-time="2012-07-05T08:36:47.985684Z"
+   committed-date="2012-06-19T03:38:51.341833Z"
+   checksum="4e49a2a5b4777749c9d49a9181b54f5c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.813879Z"/>
+<entry
+   committed-rev="174"
+   name=".jsdtscope"
+   text-time="2012-07-05T08:36:48.001302Z"
+   committed-date="2012-06-19T03:38:51.341833Z"
+   checksum="ca98a280c794a74fb47e1b5282e1e51a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.845116Z"/>
+<entry
+   committed-rev="174"
+   name="org.eclipse.wst.common.component"
+   text-time="2012-07-05T08:36:48.016921Z"
+   committed-date="2012-06-19T03:38:51.341833Z"
+   checksum="1141a3d294885227f3da2f74c51a6a99"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.876354Z"/>
+</wc-entries>

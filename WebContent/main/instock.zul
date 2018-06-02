@@ -1,0 +1,75 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>.starLabel { color:red; width:80%;font-size:14px;}</style>
+	<window id="contentWin" title="创建入库记录" border="normal"
+		use="com.hxdq.xedsms.web.window.InstockWindow">
+		<div align="center">
+			<div id="panel1" width="60%" align="left">
+				<grid align="center">
+					<columns visible="false">
+						<column width="30%" />
+						<column width="70%" />
+					</columns>
+					<rows>
+						<row spans="2">
+							<div align="center">
+								<label id="p1HeaderLabel"
+									style="font-weight:bold;" value="入库信息" />
+							</div>
+						</row>
+						<row>
+							<label value="入库时间"/>
+							<datebox id="intime" format="yyyy-MM-dd HH:mm:ss"/>
+						</row>
+						</rows>
+						</grid>
+						
+						
+				<div align="right">
+				<button id="addBtn" label="增加产品"
+						onClick="contentWin.add()" />
+				<button id="delBtn" label="减少产品"
+						onClick="contentWin.delete()" />
+				</div>
+				<label id="recNumLabel" value="产品列表：" />
+				<grid id="listGrid" align="center">
+					<columns>
+						<column label="索引" width="5%"/>
+						<column label="产品" width="20%"/>
+						<column label="数量" width="20%"/>
+						<column label="单价" width="20%"/>
+						<column label="当前库存" width="10%"/>
+					</columns>
+					<rows id="listRow">
+					</rows>
+				</grid>
+				<div align="right">
+					<label id="errorInputLabel" value="输入不合法，请检查！" visible="false"/>
+					<button id="submitBtn" label="创建入库记录"
+						onClick="contentWin.insert()"/>
+				</div>
+			</div>
+
+			<div id="panel2" width="60%" align="left" visible="false">
+				<hbox id="allsucchbx" visible="false">
+					<image src="/img/ok.gif" />
+					<label id="allsuccLabel"
+						value="产品入库成功!" />
+				</hbox>
+				<hbox id="errorchbx" visible="false">
+					<image src="/img/alert.gif" />
+					<label id="errorLabel"
+						value="产品入库失败:" />
+					<label id="errorDetailLabel" />
+				</hbox>
+				<div id="rtnDiv" align="left" visible="false">
+					<button id="rtnBtn" label="返回"
+						onClick="contentWin.back()" />
+					<button id="addNextOneBtn" label="继续添加入库信息"
+						onClick="contentWin.addNextOne()" />
+				</div>
+			</div>
+		</div>
+
+	</window>
+</zk>

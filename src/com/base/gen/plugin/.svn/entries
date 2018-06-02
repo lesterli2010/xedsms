@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="173"
+   name=""
+   committed-date="2012-06-19T03:37:19.228189Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/base/gen/plugin"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="173"
+   name="RowBoundsPlugin.java"
+   text-time="2012-07-05T08:36:19.060037Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="82c3aad7721870217ce7f047dcc9d350"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.935088Z"/>
+<entry
+   committed-rev="173"
+   name="DefinedPlugin.java"
+   text-time="2012-07-05T08:36:19.075655Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="131c2868772035fb59d0b02e7a37d89b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.013181Z"/>
+</wc-entries>

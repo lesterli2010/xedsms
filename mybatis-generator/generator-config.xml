@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+  
+	<context id="Mysql_auto" targetRuntime="MyBatis3">
+
+    <plugin type="com.base.gen.plugin.DefinedPlugin" />
+    <plugin type="com.base.gen.plugin.RowBoundsPlugin" />
+
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://127.0.0.1:3306/xedsms" userId="root"
+			password="newsys">
+		</jdbcConnection>
+
+		<javaModelGenerator targetPackage="com.hxdq.xedsms.db.model"
+			targetProject="..\src">
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="com.hxdq.xedsms.db.model"
+			targetProject="..\src">
+		</sqlMapGenerator>
+
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.hxdq.xedsms.db.model" implementationPackage="com.hxdq.xedsms.db.client"
+			targetProject="..\src">
+		</javaClientGenerator>
+
+		<table schema="xedsms" tableName="customer" domainObjectName="Customer">
+			<generatedKey column="customer_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="city" domainObjectName="City">
+			<generatedKey column="city_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="province" domainObjectName="Province">
+			<generatedKey column="prov_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="dkspecinfo" domainObjectName="Dkspecinfo">
+			<generatedKey column="dkspec_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		
+		<table schema="xedsms" tableName="instock" domainObjectName="Instock">
+			<generatedKey column="in_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="outstock" domainObjectName="Outstock">
+			<generatedKey column="out_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="outstockproduct" domainObjectName="OutstockProduct">
+			<generatedKey column="id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="productinfo" domainObjectName="Productinfo">
+			<generatedKey column="product_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="saler" domainObjectName="Saler">
+			<generatedKey column="saler_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="specinfo" domainObjectName="Specinfo">
+			<generatedKey column="spec_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="stockstatus" domainObjectName="Stockstatus">
+		</table>
+		<table schema="xedsms" tableName="user" domainObjectName="User">
+			
+		</table>
+		<table schema="xedsms" tableName="user_authority" domainObjectName="Userauthority">
+			
+		</table>
+		<table schema="xedsms" tableName="instockproduct" domainObjectName="Instockproduct">
+			<generatedKey column="id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="usageinfo" domainObjectName="Usageinfo">
+			<generatedKey column="usage_id" sqlStatement="Mysql"	identity="true" />
+		</table>
+		<table schema="xedsms" tableName="productbatch" domainObjectName="Productbatch">
+			<generatedKey column="id" sqlStatement="Mysql"	identity="true" />
+		</table>
+	</context>
+</generatorConfiguration>

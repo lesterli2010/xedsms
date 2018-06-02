@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="197"
+   name=""
+   committed-date="2012-06-25T01:29:47.025444Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq/xedsms"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="197"
+   name="Utility.java"
+   text-time="2012-07-05T08:36:18.685190Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="ddeab1e66a3a08afff1aa46412b5a039"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.438160Z"/>
+<entry
+   committed-rev="173"
+   name="BarcodeServlet.java"
+   text-time="2012-07-05T08:36:18.700809Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="7599a125ef21c2c96e3e3754f12f25aa"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.453778Z"/>
+<entry
+   committed-rev="187"
+   name="WebPortalAppInit.java"
+   text-time="2012-07-05T08:36:18.716427Z"
+   committed-date="2012-06-21T05:30:41.352017Z"
+   checksum="8f8eb53efb60d40a3b078caa7091ce69"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.469397Z"/>
+<entry
+   name="db"
+   kind="dir"/>
+<entry
+   name="web"
+   kind="dir"/>
+</wc-entries>

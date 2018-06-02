@@ -1,0 +1,55 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="contentWin" title="选择客户" border="normal"
+		use="com.hxdq.xedsms.web.window.OtherDataWindow">
+		
+		<div align="center" width="100%">
+			<hbox align="center">
+				<label value="数据类型："/>
+				<combobox id="dataTypeCombox"
+						model="${contentWin.dataTypeModel}"
+						itemRenderer="${contentWin.dataTypeRenderer}" width="20" onChange="contentWin.changeDataType()">
+				</combobox>
+				<textbox id="name" width="480" />
+				<button id="addBtn" label="添加新数据"
+					onClick="contentWin.add()" />
+		</hbox>
+			<div width="60%" align="left">
+				<hbox>
+				<label id="recNumLabel" value="记录个数:" />
+				<label id="countLabel"/>
+				<label id="currentPageLabel" value="当前页：" />
+				<label id="pageLabel"/>
+				</hbox>
+				<grid id="listGrid" align="center"
+					model="${contentWin.listModel}"
+					rowRenderer="${contentWin.listRenderer}">
+					<columns>
+						<column label="索引" width="5%"/>
+						<column label="编号" width="5%"/>
+						<column label="名称" width="40%"/>
+						<column label="修改" width="10%"/>
+					</columns>
+				</grid>
+
+				<grid style="border:0px;">
+					<rows style="border:0px;">
+						<row style="border:0px;">
+							<div align="left">
+								<button id="delBtn" label="删除所选项"
+									onClick="contentWin.delete()" image="/img/Delete.png"/>
+							</div>
+							<div align="right" visible="false">
+								<button label="&lt;&lt;" id="prevBtn"
+									onClick="contentWin.previous()" image="/img/previous.gif"/>
+								<button label="&gt;&gt;" id="nextBtn"
+									onClick="contentWin.next()" image="/img/next.gif"/>
+							</div>
+						</row>
+					</rows>
+				</grid>
+			</div>
+
+		</div>
+	</window>
+</zk>

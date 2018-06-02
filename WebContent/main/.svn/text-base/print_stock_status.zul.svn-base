@@ -1,0 +1,66 @@
+<?page title="当前库存列表" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="contentWin"
+		use="com.hxdq.xedsms.web.window.StockStatusWindow">
+		<div align="center" width="100%">
+			<hbox align="center" visible="false">
+				<textbox id="name" width="480" />
+				<button id="searchBtn" label="按姓名查询"
+					onClick="contentWin.search()" />
+			</hbox>
+			<hbox align="center">
+			<label id="p1HeaderLabel"
+			style="font-weight:bold;font-size:20pt" value="当前库存列表" />
+			
+			</hbox>
+			<hbox align="center">
+			<label value="当前时间：" style="font-weight:bold;font-size:12pt"/>
+			<label id="currentTime"
+			style="font-weight:bold;font-size:12pt" />
+			</hbox>
+			<div width="80%" align="left">
+				<hbox>
+				<label id="recNumLabel" value="记录个数:" style="font-size:14pt"/>
+				<label id="countLabel" style="font-size:14pt"/>
+				<label id="currentPageLabel" value="当前页：" style="font-size:14pt"/>
+				<label id="pageLabel" style="font-size:14pt"/>
+				</hbox>
+				<grid id="listGrid" align="center"
+					model="${contentWin.listModel}"
+					rowRenderer="${contentWin.listRenderer}">
+					<columns>
+						<column label="索引" width="8%" style="font-size:14pt"/>
+						<column label="产品" width="20%" style="font-size:14pt"/>
+						<column label="入库数" width="6%" style="font-size:14pt"/>
+						<column label="出库数" width="6%" style="font-size:14pt"/>
+						<column label="库存数" width="6%" style="font-size:14pt"/>
+						<column label="更新时间" width="15%" style="font-size:14pt"/>
+					</columns>
+				</grid>
+				<div align="right">
+					<button id="printBtn" label="打印" xmlns:w="http://www.zkoss.org/2005/zk/client" w:onClick="window.print();" image="/img/Print.png"/>
+					<button id="closeBtn" label="关闭" xmlns:w="http://www.zkoss.org/2005/zk/client" w:onClick="window.close();" image="/img/close.png"/>
+				</div>
+				<grid style="border:0px;" visible="false">
+					<rows style="border:0px;">
+						<row style="border:0px;">
+							
+							<div align="left" visible="false">
+								<button id="delBtn" label="删除所选项"
+									onClick="contentWin.delete()" image="/img/Delete.png"/>
+							</div>
+							<div align="right" visible="false">
+					
+								<button visible="false" label="&lt;&lt;" id="prevBtn"
+									onClick="contentWin.previous()" image="/img/previous.gif"/>
+								<button visible="false" label="&gt;&gt;" id="nextBtn"
+									onClick="contentWin.next()" image="/img/next.gif"/>
+									</div>
+						</row>
+					</rows>
+				</grid>
+			</div>
+
+		</div>
+	</window>
+</zk>

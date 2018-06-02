@@ -1,0 +1,104 @@
+<?page title="客户详情" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>.starLabel { color:red; width:80%;font-size:14px;}</style>
+	<window id="contentWin"
+		use="com.hxdq.xedsms.web.window.CustomerDetailWindow"
+		xmlns:a="http://www.zkoss.org/2005/zk/annotation" style="font-size:30px">
+		<div align="center">
+			<div id="panel1" width="80%" align="left">
+				<grid align="center">
+					<columns visible="false">
+						<column width="20%" />
+						<column width="80%" />
+					</columns>
+					<rows>
+						<row spans="2">
+							<div align="center">
+								<label id="p1HeaderLabel"
+									style="font-weight:bold;" value="客户信息" />
+							</div>
+						</row>
+						<row>
+							<label value="创建时间"/>
+							<a:bind value="customer.createtime"/>
+							<label id="createtime" />
+						</row>
+						<row>
+							<label value="更新时间"/>
+							<a:bind value="customer.updatetime"/>
+							<label id="updatetime" />
+						</row>
+						<row>
+							<div>
+							<label id="userIDLabel" value="客户名" />
+							</div>
+							<hbox>
+								<a:bind value="customer.name"/>
+								<label id="name" />
+							</hbox>
+						</row>
+						
+						<row>
+							<label value="手机号" />
+							<a:bind value="customer.cellphone"/>
+							<label id="cellphone" />
+						</row>
+						<row>
+							<label value="办公电话" />
+							<a:bind value="customer.officephone"/>
+							<label id="officephone" />
+						</row>
+						<row>
+							<label value="家庭电话" />
+							<a:bind value="customer.homephone"/>
+							<label id="homephone" />
+						</row>
+						<row>
+							<label value="性别"/>
+							<label id="gender" />
+						</row>
+						<row>
+							<label value="生日"/>
+							<label id="birthdate" />
+						</row>
+						<row>
+							<label value="公司名" />
+							<a:bind value="customer.companyname"/>
+							<label id="companyname" />
+						</row>
+						<row>
+							<label value="所在城市" />
+							<label id="city" />
+						</row>
+						<row>
+							<label value="地址" />
+							<a:bind value="customer.address"/>
+							<label id="address" />
+						</row>
+						<row>
+							<label value="负责销售员"/>
+							<label id="saler" />
+						</row>
+						<row>
+							<label value="回访记录"/>
+							<a:bind value="customer.interview"/>
+							<label id="interview" multiline="true"  width="90%"/>
+						</row>
+						<row>
+							<label value="备注"/>
+							<a:bind value="customer.remark"/>
+							<label id="remark" multiline="true"  width="90%"/>
+						</row>
+					</rows>
+				</grid>
+				<div align="right">
+					<button id="printBtn" label="打印" xmlns:w="http://www.zkoss.org/2005/zk/client" w:onClick="window.print();" image="/img/Print.png"/>
+					<button id="closeBtn" label="关闭" xmlns:w="http://www.zkoss.org/2005/zk/client" w:onClick="window.close();" image="/img/close.png"/>
+				</div>
+			</div>
+<div id="panel2"/>
+			
+		</div>
+
+	</window>
+</zk>

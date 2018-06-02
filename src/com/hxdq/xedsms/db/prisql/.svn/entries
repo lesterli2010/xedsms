@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2012-06-21T00:48:35.937802Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq/xedsms/db/prisql"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="178"
+   name="OutstockMapper.xml"
+   text-time="2012-07-05T08:36:15.998791Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="c7fb529b37fd942a9871e4e700bb2eab"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.545852Z"/>
+<entry
+   committed-rev="173"
+   name="InstockproductMapper.xml"
+   text-time="2012-07-05T08:36:15.983172Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="5bd5ef0c36110cb3ef102f687c7e5979"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.530233Z"/>
+<entry
+   committed-rev="173"
+   name="OutstockProductMapper.xml"
+   text-time="2012-07-05T08:36:16.014410Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="db24a65e97a819671b61dcbc50da8490"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.592707Z"/>
+<entry
+   committed-rev="173"
+   name="UserMapper.xml"
+   text-time="2012-07-05T08:36:16.045647Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="d46cb080491228c2dc8edeeff364ed2d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.655182Z"/>
+<entry
+   committed-rev="173"
+   name="ProductbatchMapper.xml"
+   text-time="2012-07-05T08:36:16.076884Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="6659ec685395277312f13679bebeef95"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.733275Z"/>
+<entry
+   committed-rev="173"
+   name="ProvinceMapper.xml"
+   text-time="2012-07-05T08:36:16.108121Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="e687a66019a8cd24398d147d24e0f047"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.780131Z"/>
+<entry
+   committed-rev="173"
+   name="DkspecinfoMapper.xml"
+   text-time="2012-07-05T08:36:16.092503Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="214365419f3eee584fb50fd1e6aa528a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.764512Z"/>
+<entry
+   committed-rev="173"
+   name="UserauthorityMapper.xml"
+   text-time="2012-07-05T08:36:16.170596Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="bb43d5dc331eed4a39d798a286723c8f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.858224Z"/>
+<entry
+   committed-rev="178"
+   name="StockstatusMapper.xml"
+   text-time="2012-07-05T08:36:16.154977Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="e05e03ea0abca597c2e364b311516899"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.842605Z"/>
+<entry
+   committed-rev="173"
+   name="ProductinfoMapper.xml"
+   text-time="2012-07-05T08:36:16.030028Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="c69dec05bbd59f618b31df9ffe44ce3e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.639563Z"/>
+<entry
+   committed-rev="185"
+   name="CustomerMapper.xml"
+   text-time="2012-07-05T08:36:16.061265Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="35bc6a22ac9dddde16a05f32597d6f3c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.670800Z"/>
+<entry
+   committed-rev="173"
+   name="SpecinfoMapper.xml"
+   text-time="2012-07-05T08:36:16.139358Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="f29accf2e8a108deec514d6eb873dfcd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.826986Z"/>
+<entry
+   committed-rev="173"
+   name="SalerMapper.xml"
+   text-time="2012-07-05T08:36:16.123740Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="087a8ed3e54be5189a91ece890b2f413"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.795749Z"/>
+<entry
+   committed-rev="173"
+   name="CityMapper.xml"
+   text-time="2012-07-05T08:36:16.186214Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="878495a4def2aafc4d8a82529f4dfb55"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.920698Z"/>
+<entry
+   committed-rev="173"
+   name="InstockMapper.xml"
+   text-time="2012-07-05T08:36:16.201833Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="9405828826ac56d2040741976b09d00b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.936317Z"/>
+</wc-entries>

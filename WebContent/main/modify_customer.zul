@@ -1,0 +1,134 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>.starLabel { color:red; width:80%;}</style>
+	<window id="contentWin" title="修改客户信息" border="normal"
+		use="com.hxdq.xedsms.web.window.ModifyCustomerWindow"
+		xmlns:a="http://www.zkoss.org/2005/zk/annotation">
+		<div align="center">
+			<div id="panel1" width="80%" align="left">
+				<grid align="center">
+					<columns visible="false">
+						<column width="30%" />
+						<column width="70%" />
+					</columns>
+					<rows>
+						<row spans="2">
+							<div align="center">
+								<label id="p1HeaderLabel"
+									style="font-weight:bold;" value="客户信息" />
+							</div>
+						</row>
+						<row>
+							<div>
+							<label id="userIDLabel" value="客户名称" />
+							<label value="*" sclass="starLabel" />
+							</div>
+							<hbox>
+								<a:bind value="customer.name"/>
+								<textbox id="name" width="150"
+									maxlength="1024" constraint="no empty:客户名不能为空!" onChange="contentWin.update()"/>
+							</hbox>
+						</row>
+						<row>
+							<label value="手机号" />
+							<a:bind value="customer.cellphone"/>
+							<textbox id="cellphone" width="150"
+								maxlength="1024" onChange="contentWin.update()"/>
+						</row>
+						<row>
+							<label value="办公电话" />
+							<a:bind value="customer.officephone"/>
+							<textbox id="officephone" width="150"
+								maxlength="1024" onChange="contentWin.update()"/>
+						</row>
+						<row>
+							<label value="家庭电话" />
+							<a:bind value="customer.homephone"/>
+							<textbox id="homephone" width="150"
+								maxlength="1024" onChange="contentWin.update()"/>
+						</row>
+						<row>
+							<label value="性别"/>
+							<combobox id="genderCombox"
+								model="${contentWin.genderModel}"
+								itemRenderer="${contentWin.genderRenderer}" width="20">
+							</combobox>
+						</row>
+						<row>
+							<label value="生日"/>
+							<a:bind value="customer.birthdate"/>
+							<datebox id="birthdate" width="50%" format="yyyy-MM-dd" onChange="contentWin.update()"/>
+						</row>
+						<row>
+							<label value="公司名称" />
+							<a:bind value="customer.companyname"/>
+							<textbox id="companyname" width="80%"
+								maxlength="1024" onChange="contentWin.update()"/>
+						</row>
+						<row>
+							<label value="所在城市" />
+							<div>
+						<combobox id="province"
+								model="${contentWin.provinceModel}"
+								itemRenderer="${contentWin.provinceRenderer}" width="20" onChange="contentWin.changeProvince()">
+							</combobox>
+							<combobox id="city"
+								model="${contentWin.cityModel}"
+								itemRenderer="${contentWin.cityRenderer}" width="20">
+							</combobox>
+							</div>
+							</row>
+						<row>
+							<label value="地址" />
+							<a:bind value="customer.address"/>
+							<textbox id="address" width="80%"
+								maxlength="1024" onChange="contentWin.update()"/>
+						</row>
+						<row>
+							<label value="负责销售员"/>
+							<combobox id="saler"
+								model="${contentWin.salerModel}"
+								itemRenderer="${contentWin.salerRenderer}" width="20">
+							</combobox>
+						</row>
+						<row>
+							<label value="回访记录"/>
+							<a:bind value="customer.interview"/>
+							<textbox id="interview" multiline="true" rows="20" width="90%" onChange="contentWin.update()"/>
+						</row>
+						<row>
+							<label value="备注"/>
+							<a:bind value="customer.remark"/>
+							<textbox id="remark" multiline="true" rows="10" width="90%" onChange="contentWin.update()"/>
+						</row>
+					</rows>
+				</grid>
+				<div align="right">
+					<button id="modifyBtn" label="修改"
+						onClick="contentWin.modify()" />
+					<button id="backBtn" label="返回"
+						onClick="contentWin.back()" />
+				</div>
+			</div>
+
+			<div id="panel2" width="50%" align="left" visible="false">
+				<hbox id="allsucchbx" visible="false">
+					<image src="/img/ok.gif" />
+					<label id="allsuccLabel"
+						value="客户信息修改成功！" />
+				</hbox>
+				<hbox id="errorchbx" visible="false">
+					<image src="/img/alert.gif" />
+					<label id="errorLabel"
+						value="客户信息修改失败:" />
+					<label id="errorDetailLabel" />
+				</hbox>
+				<div id="rtnDiv" align="left" visible="false">
+					<button id="rtnBtn" label="返回"
+						onClick="contentWin.rtn()" />
+				</div>
+			</div>
+		</div>
+
+	</window>
+</zk>

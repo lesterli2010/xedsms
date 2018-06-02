@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.prisql.OutstockMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Outstock" >
+     <id column="out_id" property="outId" jdbcType="INTEGER" />
+    <result column="customer_id" property="customerId" jdbcType="INTEGER" />
+    <result column="sale_time" property="saleTime" jdbcType="TIMESTAMP" />
+    <result column="out_time" property="outTime" jdbcType="TIMESTAMP" />
+    <result column="saler_id" property="salerId" jdbcType="INTEGER" />
+    <result column="city_id" property="cityId" jdbcType="INTEGER" />
+  </resultMap>
+  <select id="get_count_by_prodid" parameterType="HashMap" resultType="Integer">
+  	select count(out_id) from outstock where out_id in (select out_id from outstockproduct where product_id = #{product_id})
+	</select>
+	
+	<select id="get_list_by_prodid" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.OutstockMapper.BaseResultMap">
+  	select * from outstock where out_id in (select out_id from outstockproduct where product_id = #{product_id}) order by out_id desc limit #{start_index},#{max_result}
+	</select>
+	
+	  <select id="get_count_by_prodid_time" parameterType="HashMap" resultType="Integer">
+  	select count(out_id) from outstock where out_time&gt;#{start_date} and
+		out_time&lt;#{end_date} and out_id in (select out_id from outstockproduct where product_id = #{product_id})
+	</select>
+	
+	<select id="get_list_by_prodid_time" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.OutstockMapper.BaseResultMap">
+  	select * from outstock where out_time&gt;#{start_date} and
+		out_time&lt;#{end_date} and out_id in (select out_id from outstockproduct where product_id = #{product_id}) order by out_id desc limit #{start_index},#{max_result}
+	</select>
+	
+	<select id="get_count_by_time" parameterType="HashMap" resultType="Integer">
+  	select count(out_id) from outstock where out_time&gt;#{start_date} and
+		out_time&lt;#{end_date} 
+	</select>
+	
+	<select id="get_list_by_time" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.OutstockMapper.BaseResultMap">
+  	select * from outstock where out_time&gt;#{start_date} and
+		out_time&lt;#{end_date} order by out_id desc limit #{start_index},#{max_result}
+	</select>
+	
+	
+	<select id="get_list_limit" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.OutstockMapper.BaseResultMap">
+  			select * from outstock order by out_id desc limit #{start_index},#{max_result}
+	</select>
+	
+	  <select id="get_count_by_barcode" parameterType="HashMap" resultType="Integer">
+  	select count(out_id) from outstock where out_id in (select out_id from outstockproduct where barcode like BINARY CONCAT('%',#{bar_code},'%'))
+	</select>
+	
+	<select id="get_list_by_barcode" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.OutstockMapper.BaseResultMap">
+  	select * from outstock where out_id in (select out_id from outstockproduct where barcode like BINARY CONCAT('%',#{bar_code},'%')) order by out_id desc limit #{start_index},#{max_result}
+	</select>
+</mapper>

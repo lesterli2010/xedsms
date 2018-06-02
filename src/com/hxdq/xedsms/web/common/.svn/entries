@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="187"
+   name=""
+   committed-date="2012-06-21T05:30:41.352017Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq/xedsms/web/common"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="173"
+   name="ModifyWindow.java"
+   text-time="2012-07-05T08:36:18.419674Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="9a172ede14991dcc435aa5627d48376e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.982353Z"/>
+<entry
+   committed-rev="173"
+   name="RowData.java"
+   text-time="2012-07-05T08:36:18.435293Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="dd101a69ff5f057065f50244d0a96a9c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.997972Z"/>
+<entry
+   committed-rev="173"
+   name="ContentWindow.java"
+   text-time="2012-07-05T08:36:18.450911Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="93bd01cfcfe79100b7fc175e27465dc7"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.044828Z"/>
+<entry
+   committed-rev="173"
+   name="MenuCategory.java"
+   text-time="2012-07-05T08:36:18.466530Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="1a10e8d6a5e0eb11e80c95219b96bd61"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.107302Z"/>
+<entry
+   committed-rev="173"
+   name="MenuItem.java"
+   text-time="2012-07-05T08:36:18.482148Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="8ee8f0e12ca647b85f635427a8c80552"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.154158Z"/>
+<entry
+   committed-rev="173"
+   name="SelectListWindow.java"
+   text-time="2012-07-05T08:36:18.497767Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="3e25aa839d1a13de84e16fb15e63a4dc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.247869Z"/>
+<entry
+   committed-rev="173"
+   name="ShowAllListModel.java"
+   text-time="2012-07-05T08:36:18.513386Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="a6f1e16d56bdc895033dcc1845b5184c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.263488Z"/>
+<entry
+   committed-rev="187"
+   name="MainLayoutComposer.java"
+   text-time="2012-07-05T08:36:18.529004Z"
+   committed-date="2012-06-21T05:30:41.352017Z"
+   checksum="306850902a72b986d61bb06ab49bc34d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.294725Z"/>
+<entry
+   committed-rev="173"
+   name="InsertWindow.java"
+   text-time="2012-07-05T08:36:18.544623Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="1b1ee035836e69174612ad169c63e5a6"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.310344Z"/>
+<entry
+   committed-rev="173"
+   name="MainLayoutAPI.java"
+   text-time="2012-07-05T08:36:18.560241Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ded9b899d096ad22d9def08d425156fc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.325962Z"/>
+<entry
+   committed-rev="173"
+   name="PageCompProp.java"
+   text-time="2012-07-05T08:36:18.560241Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="046d58db277b45c27de8986f2af31ff4"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.341581Z"/>
+<entry
+   committed-rev="173"
+   name="PreNextPageData.java"
+   text-time="2012-07-05T08:36:18.575860Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="9980e98a7bb2d6c4a568945d6eca30b2"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.372818Z"/>
+<entry
+   committed-rev="173"
+   name="AClickEventListener.java"
+   text-time="2012-07-05T08:36:18.591479Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="f2f8d36ef1a32e13bec30ad55cdef8a4"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:18.388437Z"/>
+</wc-entries>

@@ -1,0 +1,117 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>.starLabel { color:red; width:80%;font-size:14px;}</style>
+	<window id="contentWin" title="创建入库记录" border="normal"
+		use="com.hxdq.xedsms.web.window.OutstockWindow">
+		<div align="center">
+			<div id="panel1" width="90%" align="left">
+				<grid align="center">
+					<columns visible="false">
+						<column width="30%" />
+						<column width="70%" />
+					</columns>
+					<rows>
+						<row spans="2">
+							<div align="center">
+								<label id="p1HeaderLabel"
+									style="font-weight:bold;" value="出库信息" />
+							</div>
+						</row>
+						<row>
+							<div>
+							<label value="客户" />
+							<label value="*" sclass="starLabel" />
+							</div>
+							<hbox>
+								<combobox id="customer"
+									model="${contentWin.customerModel}"
+									itemRenderer="${contentWin.customerRenderer}" width="20">
+							</combobox>
+							</hbox>
+						</row>
+						<row>
+							<label value="销售日期"/>
+							<datebox id="saledate" format="yyyy-MM-dd"/>
+						</row>
+						<row>
+							<label value="出库时间"/>
+							<datebox id="outtime" format="yyyy-MM-dd HH:mm:ss"/>
+						</row>
+						<row>
+							<label value="销售员"/>
+							<combobox id="saler"
+								model="${contentWin.salerModel}"
+								itemRenderer="${contentWin.salerRenderer}" width="20">
+							</combobox>
+						</row>
+						<row>
+							<div>
+							<label value="销售地区" />
+							</div>
+							<div>
+								<combobox id="province"
+								model="${contentWin.provinceModel}"
+								itemRenderer="${contentWin.provinceRenderer}" width="20" onChange="contentWin.changeProvince()">
+							</combobox>
+							<combobox id="city"
+								model="${contentWin.cityModel}"
+								itemRenderer="${contentWin.cityRenderer}" width="20">
+							</combobox>
+							<textbox id="address" width="30"
+								maxlength="64" />
+							</div>
+						</row>
+					</rows>
+				</grid>
+
+				<div align="right">
+				<button id="addBtn" label="增加产品"
+						onClick="contentWin.add()" />
+				<button id="delBtn" label="减少产品"
+						onClick="contentWin.delete()" />
+				</div>
+				<label id="recNumLabel" value="产品列表：" />
+				<grid id="listGrid" align="center">
+					<columns>
+						<column label="索引" width="5%"/>
+						<column label="产品" width="15%"/>
+						<column label="数量" width="10%"/>
+						<column label="单价" width="10%"/>
+						<column label="用途" width="10%"/>
+						<column label="生成条码" width="8%"/>
+						<column label="条码" width="30%"/>
+						<column label="库存" width="6%"/>
+					</columns>
+					<rows id="listRow">
+					</rows>
+				</grid>
+				<div align="right">
+					<label id="errorInputLabel" value="输入不合法，请检查！" visible="false"/>
+					<button id="submitBtn" label="创建出库记录"
+						onClick="contentWin.insert()"/>
+				</div>
+			</div>
+
+			<div id="panel2" width="60%" align="left" visible="false">
+				<hbox id="allsucchbx" visible="false">
+					<image src="/img/ok.gif" />
+					<label id="allsuccLabel"
+						value="产品出库成功!" />
+				</hbox>
+				<hbox id="errorchbx" visible="false">
+					<image src="/img/alert.gif" />
+					<label id="errorLabel"
+						value="产品出库失败:" />
+					<label id="errorDetailLabel" />
+				</hbox>
+				<div id="rtnDiv" align="left" visible="false">
+					<button id="rtnBtn" label="返回"
+						onClick="contentWin.back()" />
+					<button id="addNextOneBtn" label="继续添加出库信息"
+						onClick="contentWin.addNextOne()" />
+				</div>
+			</div>
+		</div>
+
+	</window>
+</zk>

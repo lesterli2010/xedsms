@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.model.OutstockMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Outstock" >
+    <id column="out_id" property="outId" jdbcType="INTEGER" />
+    <result column="customer_id" property="customerId" jdbcType="INTEGER" />
+    <result column="sale_time" property="saleTime" jdbcType="TIMESTAMP" />
+    <result column="out_time" property="outTime" jdbcType="TIMESTAMP" />
+    <result column="saler_id" property="salerId" jdbcType="INTEGER" />
+    <result column="city_id" property="cityId" jdbcType="INTEGER" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="operator" property="operator" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    out_id, customer_id, sale_time, out_time, saler_id, city_id, address, operator
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.OutstockExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from outstock
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from outstock
+    where out_id = #{outId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from outstock
+    where out_id = #{outId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.hxdq.xedsms.db.model.OutstockExample" >
+    delete from outstock
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.hxdq.xedsms.db.model.Outstock" >
+    <selectKey resultType="java.lang.Integer" keyProperty="outId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into outstock (customer_id, sale_time, out_time, 
+      saler_id, city_id, address, 
+      operator)
+    values (#{customerId,jdbcType=INTEGER}, #{saleTime,jdbcType=TIMESTAMP}, #{outTime,jdbcType=TIMESTAMP}, 
+      #{salerId,jdbcType=INTEGER}, #{cityId,jdbcType=INTEGER}, #{address,jdbcType=VARCHAR}, 
+      #{operator,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.hxdq.xedsms.db.model.Outstock" >
+    <selectKey resultType="java.lang.Integer" keyProperty="outId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into outstock
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="customerId != null" >
+        customer_id,
+      </if>
+      <if test="saleTime != null" >
+        sale_time,
+      </if>
+      <if test="outTime != null" >
+        out_time,
+      </if>
+      <if test="salerId != null" >
+        saler_id,
+      </if>
+      <if test="cityId != null" >
+        city_id,
+      </if>
+      <if test="address != null" >
+        address,
+      </if>
+      <if test="operator != null" >
+        operator,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="customerId != null" >
+        #{customerId,jdbcType=INTEGER},
+      </if>
+      <if test="saleTime != null" >
+        #{saleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="outTime != null" >
+        #{outTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="salerId != null" >
+        #{salerId,jdbcType=INTEGER},
+      </if>
+      <if test="cityId != null" >
+        #{cityId,jdbcType=INTEGER},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="operator != null" >
+        #{operator,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.hxdq.xedsms.db.model.OutstockExample" resultType="java.lang.Integer" >
+    select count(*) from outstock
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update outstock
+    <set >
+      <if test="record.outId != null" >
+        out_id = #{record.outId,jdbcType=INTEGER},
+      </if>
+      <if test="record.customerId != null" >
+        customer_id = #{record.customerId,jdbcType=INTEGER},
+      </if>
+      <if test="record.saleTime != null" >
+        sale_time = #{record.saleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.outTime != null" >
+        out_time = #{record.outTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.salerId != null" >
+        saler_id = #{record.salerId,jdbcType=INTEGER},
+      </if>
+      <if test="record.cityId != null" >
+        city_id = #{record.cityId,jdbcType=INTEGER},
+      </if>
+      <if test="record.address != null" >
+        address = #{record.address,jdbcType=VARCHAR},
+      </if>
+      <if test="record.operator != null" >
+        operator = #{record.operator,jdbcType=CHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update outstock
+    set out_id = #{record.outId,jdbcType=INTEGER},
+      customer_id = #{record.customerId,jdbcType=INTEGER},
+      sale_time = #{record.saleTime,jdbcType=TIMESTAMP},
+      out_time = #{record.outTime,jdbcType=TIMESTAMP},
+      saler_id = #{record.salerId,jdbcType=INTEGER},
+      city_id = #{record.cityId,jdbcType=INTEGER},
+      address = #{record.address,jdbcType=VARCHAR},
+      operator = #{record.operator,jdbcType=CHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hxdq.xedsms.db.model.Outstock" >
+    update outstock
+    <set >
+      <if test="customerId != null" >
+        customer_id = #{customerId,jdbcType=INTEGER},
+      </if>
+      <if test="saleTime != null" >
+        sale_time = #{saleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="outTime != null" >
+        out_time = #{outTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="salerId != null" >
+        saler_id = #{salerId,jdbcType=INTEGER},
+      </if>
+      <if test="cityId != null" >
+        city_id = #{cityId,jdbcType=INTEGER},
+      </if>
+      <if test="address != null" >
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="operator != null" >
+        operator = #{operator,jdbcType=CHAR},
+      </if>
+    </set>
+    where out_id = #{outId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hxdq.xedsms.db.model.Outstock" >
+    update outstock
+    set customer_id = #{customerId,jdbcType=INTEGER},
+      sale_time = #{saleTime,jdbcType=TIMESTAMP},
+      out_time = #{outTime,jdbcType=TIMESTAMP},
+      saler_id = #{salerId,jdbcType=INTEGER},
+      city_id = #{cityId,jdbcType=INTEGER},
+      address = #{address,jdbcType=VARCHAR},
+      operator = #{operator,jdbcType=CHAR}
+    where out_id = #{outId,jdbcType=INTEGER}
+  </update>
+  <select resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.OutstockExample" id="selectByExampleWithRowbounds" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from outstock
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

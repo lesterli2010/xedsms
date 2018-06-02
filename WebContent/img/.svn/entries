@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="188"
+   name=""
+   committed-date="2012-06-21T06:11:46.113801Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/WebContent/img"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="168"
+   name="logo.jpg"
+   text-time="2012-07-05T08:36:45.970884Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="688d6b1b8c4c8da60ae53d20dd4d90dd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.331751Z"/>
+<entry
+   committed-rev="168"
+   name="exit.ico"
+   text-time="2012-07-05T08:36:45.970884Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="b8777953fb226285257602cf84b1e1cd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.362988Z"/>
+<entry
+   committed-rev="168"
+   name="Profile.png"
+   text-time="2012-07-05T08:36:46.002122Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="6beb2cbd2add4be263251428ba6008ea"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.472318Z"/>
+<entry
+   committed-rev="168"
+   name="FirstWindow-24x24.png"
+   text-time="2012-07-05T08:36:45.986503Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="e8640adce410b720bcb1ba205f93d24a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.409844Z"/>
+<entry
+   committed-rev="168"
+   name="Delete.png"
+   text-time="2012-07-05T08:36:46.002122Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="a0f5e0a594795b7beed8ae4db3a5b0be"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.487937Z"/>
+<entry
+   committed-rev="168"
+   name="category-bg.png"
+   text-time="2012-07-05T08:36:46.017740Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="3200399d9410ba963d3a89b009948217"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.534792Z"/>
+<entry
+   committed-rev="188"
+   name="search.png"
+   text-time="2012-07-05T08:36:46.033359Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="129a86b5b3da95886f718e423cb576d1"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.581648Z"/>
+<entry
+   committed-rev="168"
+   name="red_stat.png"
+   text-time="2012-07-05T08:36:46.017740Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="9654a9b042a4428977ea3fcecf759760"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.550411Z"/>
+<entry
+   committed-rev="188"
+   name="saler.png"
+   text-time="2012-07-05T08:36:46.033359Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="7579a55067af61644d5729c513314c57"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.597267Z"/>
+<entry
+   committed-rev="168"
+   name="bk1.jpg"
+   text-time="2012-07-05T08:36:46.048977Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="2fc16e21efd8b0d6ca60520842306ee1"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.628504Z"/>
+<entry
+   committed-rev="168"
+   name="g-scroll-left.png"
+   text-time="2012-07-05T08:36:46.064596Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="c2bf12100d058c2efa00ae75e9fae934"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.706597Z"/>
+<entry
+   committed-rev="188"
+   name="instock.png"
+   text-time="2012-07-05T08:36:46.064596Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="317e2cabad1a666f45496b9227e71641"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.659741Z"/>
+<entry
+   committed-rev="168"
+   name="no.png"
+   text-time="2012-07-05T08:36:46.080215Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="388360ce362ed781b38d5a7beac6b25a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.722216Z"/>
+<entry
+   committed-rev="168"
+   name="bk.gif"
+   text-time="2012-07-05T08:36:46.095833Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="c0358d74f8c68d550f61f7eda066e4f0"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.815927Z"/>
+<entry
+   committed-rev="168"
+   name="Loading.png"
+   text-time="2012-07-05T08:36:46.080215Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="1dd884e7394cf1de0c4a7669571bbd39"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.769071Z"/>
+<entry
+   committed-rev="168"
+   name="Next.png"
+   text-time="2012-07-05T08:36:46.095833Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="07528a1f9dc4ff01219a273b6fc58660"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.847164Z"/>
+<entry
+   committed-rev="168"
+   name="edit.png"
+   text-time="2012-07-05T08:36:46.111452Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="5788f35a86b555cece35eff6a6b8f07a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.878402Z"/>
+<entry
+   committed-rev="168"
+   name="Pie Chart.ico"
+   text-time="2012-07-05T08:36:46.111452Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="9bafcbeddcbdaca63fbffc0844821897"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.925257Z"/>
+<entry
+   committed-rev="168"
+   name="received.png"
+   text-time="2012-07-05T08:36:46.127070Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="ca13f30269e44d7f290606f12f56f14a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.972113Z"/>
+<entry
+   committed-rev="168"
+   name="scroll-left.png"
+   text-time="2012-07-05T08:36:46.142689Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="4128bebb1da0818bacf1240f76997c51"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:42.987732Z"/>
+<entry
+   committed-rev="168"
+   name="search.gif"
+   text-time="2012-07-05T08:36:46.142689Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="03de1b088dfc8ede3bff3fed89ecc94e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.018969Z"/>
+<entry
+   committed-rev="168"
+   name="Email.png"
+   text-time="2012-07-05T08:36:46.158308Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="f1f17640bb24d2ed43b1f76aef59d03f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.050206Z"/>
+<entry
+   committed-rev="168"
+   name="alert.gif"
+   text-time="2012-07-05T08:36:46.158308Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="0a3d39c6dc2331a51bac8493dbab89da"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.081443Z"/>
+<entry
+   committed-rev="168"
+   name="adclick.png"
+   text-time="2012-07-05T08:36:46.173926Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="7d3922a03fa2358470b9d26b58db3927"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.097062Z"/>
+<entry
+   committed-rev="168"
+   name="Info.png"
+   text-time="2012-07-05T08:36:46.173926Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="5a0594225e7c8038efc47f88ab79b1d7"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.128299Z"/>
+<entry
+   committed-rev="168"
+   name="battery.gif"
+   text-time="2012-07-05T08:36:46.189545Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="31073b1649ee36db0b76688a6cd37f73"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.143918Z"/>
+<entry
+   committed-rev="168"
+   name="g-scroll-right.png"
+   text-time="2012-07-05T08:36:46.189545Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="61e4b7bf605478eea4317b79570eace5"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.175155Z"/>
+<entry
+   committed-rev="168"
+   name="defender.gif"
+   text-time="2012-07-05T08:36:46.205163Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="c8e53a73ef80d39729cc522526b26230"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.206392Z"/>
+<entry
+   committed-rev="168"
+   name="no.gif"
+   text-time="2012-07-05T08:36:46.205163Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="18ff2b7c551e447328819bdedbb5523d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.222011Z"/>
+<entry
+   committed-rev="168"
+   name="Save.png"
+   text-time="2012-07-05T08:36:46.220782Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="dd2fb23ecef749e08cbb45a8747f5d18"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.253248Z"/>
+<entry
+   committed-rev="168"
+   name="inet.png"
+   text-time="2012-07-05T08:36:46.220782Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="1fa1d7831397fd9803a827684dd8324b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.268867Z"/>
+<entry
+   committed-rev="168"
+   name="z-bullet1.gif"
+   text-time="2012-07-05T08:36:46.236401Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="d2fdee0b9121fd5c4b2100c2341b8bf7"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.378197Z"/>
+<entry
+   committed-rev="168"
+   name="yes.png"
+   text-time="2012-07-05T08:36:46.236401Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="acaccc5ba8b08104f44e00ad85928f21"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.331341Z"/>
+<entry
+   committed-rev="168"
+   name="z-bullet2.gif"
+   text-time="2012-07-05T08:36:46.267638Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="9258a5db8460e74e4fea8e88517fe507"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.440671Z"/>
+<entry
+   committed-rev="188"
+   name="customer.png"
+   text-time="2012-07-05T08:36:46.252019Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="8e50269fd8836423849f556a416407d6"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.393815Z"/>
+<entry
+   committed-rev="168"
+   name="z-bullet3.gif"
+   text-time="2012-07-05T08:36:46.283256Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="5c8567f9e8953c78e079e7893c67af5b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.503146Z"/>
+<entry
+   committed-rev="188"
+   name="sysconfig.png"
+   text-time="2012-07-05T08:36:46.283256Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="a513726c6f456c7b9f7f1858e6f7bfb5"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.534383Z"/>
+<entry
+   committed-rev="168"
+   name="cervisia.png"
+   text-time="2012-07-05T08:36:46.298875Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="5ce4bb49d35d5d0b322d8dd14cecb184"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.612476Z"/>
+<entry
+   committed-rev="188"
+   name="close.png"
+   text-time="2012-07-05T08:36:46.298875Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="f033ff496152f35d337a712545705574"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.550001Z"/>
+<entry
+   committed-rev="168"
+   name="Modify1.png"
+   text-time="2012-07-05T08:36:46.314494Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="49ce78a0e4278462ac9338b79e9e48c8"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.628094Z"/>
+<entry
+   committed-rev="168"
+   name="scroll-right.png"
+   text-time="2012-07-05T08:36:46.361349Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="d03c607afbe2c7a039815180a4211f09"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.784280Z"/>
+<entry
+   committed-rev="168"
+   name="logo_new.png"
+   text-time="2012-07-05T08:36:46.361349Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="e0d19fad702ea79b3b4b8f2540203371"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.737425Z"/>
+<entry
+   committed-rev="168"
+   name="FormsAndInputs-48x48.png"
+   text-time="2012-07-05T08:36:46.330112Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="37e7f295faf5a5176d78d21493d20b52"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.690569Z"/>
+<entry
+   committed-rev="168"
+   name="exit.png"
+   text-time="2012-07-05T08:36:46.314494Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="c3c178df615adfd450555ae81a6c43f9"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.659332Z"/>
+<entry
+   committed-rev="168"
+   name="g-category-over.png"
+   text-time="2012-07-05T08:36:46.376968Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="5228ce4fe029744240cf2b287d8c4ecd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.815518Z"/>
+<entry
+   committed-rev="168"
+   name="button.png"
+   text-time="2012-07-05T08:36:46.376968Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="d84380d5b40ac4a39675d5df603ac0e3"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.846755Z"/>
+<entry
+   committed-rev="168"
+   name="wireless.gif"
+   text-time="2012-07-05T08:36:46.392587Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="4fc1efec67cda74e8fa899e05ed42667"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.893611Z"/>
+<entry
+   committed-rev="168"
+   name="live.gif"
+   text-time="2012-07-05T08:36:46.392587Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="b999b0559c79cd792f2ffe1e93ee65dc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.924848Z"/>
+<entry
+   committed-rev="188"
+   name="stock.png"
+   text-time="2012-07-05T08:36:46.408205Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="bcde7799a7e0feed25a46338d5823aa6"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.940466Z"/>
+<entry
+   committed-rev="168"
+   name="category-over.png"
+   text-time="2012-07-05T08:36:46.423824Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="65ea55833ee17fc0cc856f7f154389c4"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.987322Z"/>
+<entry
+   committed-rev="168"
+   name="g-category-seld.png"
+   text-time="2012-07-05T08:36:46.408205Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="8749054b8da63d00a2f3a4024da87701"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:43.971704Z"/>
+<entry
+   committed-rev="168"
+   name="kopeteavailable.png"
+   text-time="2012-07-05T08:36:46.423824Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="53d13919edce60c4467c7fe8ac5cef67"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.034178Z"/>
+<entry
+   committed-rev="168"
+   name="ok.gif"
+   text-time="2012-07-05T08:36:46.439442Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="b527a90cc1bbc93ad4988211a152f577"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.096652Z"/>
+<entry
+   committed-rev="168"
+   name="b-button.png"
+   text-time="2012-07-05T08:36:46.439442Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="3381f48f45ab8d2576ca33c7449b35a1"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.065415Z"/>
+<entry
+   committed-rev="188"
+   name="welcome.png"
+   text-time="2012-07-05T08:36:46.470680Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="e92eecde4191a100309133d8eef5c0b3"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.205983Z"/>
+<entry
+   committed-rev="168"
+   name="red_role.png"
+   text-time="2012-07-05T08:36:46.470680Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="8ac49c27910d73f43bf92c5347146048"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.174745Z"/>
+<entry
+   committed-rev="168"
+   name="Warning.ico"
+   text-time="2012-07-05T08:36:46.455061Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="51f2d880ce4b9051498db7c1d203f744"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.143508Z"/>
+<entry
+   committed-rev="188"
+   name="Print.png"
+   text-time="2012-07-05T08:36:46.486298Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="1d3636d657ac7ab34cd0205d65076340"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.237220Z"/>
+<entry
+   committed-rev="168"
+   name="m1.gif"
+   text-time="2012-07-05T08:36:46.486298Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="4df752326cdc4d5bf0bf43a17bde77de"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.284076Z"/>
+<entry
+   committed-rev="168"
+   name="next.gif"
+   text-time="2012-07-05T08:36:46.533154Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="f3584eda3a56c437458808166be7dd03"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.409024Z"/>
+<entry
+   committed-rev="168"
+   name="m2.gif"
+   text-time="2012-07-05T08:36:46.517535Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="c6251829a8f0720093789af9160e20f4"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.377787Z"/>
+<entry
+   committed-rev="168"
+   name="Pie Chart.png"
+   text-time="2012-07-05T08:36:46.517535Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="065c2a619d313f9ca7f2c3acfb83d69f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.362169Z"/>
+<entry
+   committed-rev="168"
+   name="g-category-over-seld.png"
+   text-time="2012-07-05T08:36:46.501917Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="4a3a597536ec4827ae43150eda63106d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.330931Z"/>
+<entry
+   committed-rev="168"
+   name="Back.png"
+   text-time="2012-07-05T08:36:46.533154Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="b360bb2d8a46835d90944e91da052715"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.424643Z"/>
+<entry
+   committed-rev="168"
+   name="m3.gif"
+   text-time="2012-07-05T08:36:46.548773Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="f7764119343e03154113b84b02f0b481"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.471499Z"/>
+<entry
+   committed-rev="168"
+   name="volumn.gif"
+   text-time="2012-07-05T08:36:46.548773Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="92d10633b8945928f0ceb117061ba839"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.502736Z"/>
+<entry
+   committed-rev="168"
+   name="category-seld.png"
+   text-time="2012-07-05T08:36:46.564391Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="052bf9b36c89f8e3b7138175cf5f6b6f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.518355Z"/>
+<entry
+   committed-rev="168"
+   name="Comment.png"
+   text-time="2012-07-05T08:36:46.564391Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="63e25a660665deb17ea32849c78efc74"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.549592Z"/>
+<entry
+   committed-rev="168"
+   name="modify_l.png"
+   text-time="2012-07-05T08:36:46.580010Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="e0d067c706fae42cde4dcb29f8fe52db"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.565210Z"/>
+<entry
+   committed-rev="168"
+   name="bar.png"
+   text-time="2012-07-05T08:36:46.580010Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="7a3f47c62fe88f5c2d9fa1ec44c46a01"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.596448Z"/>
+<entry
+   committed-rev="168"
+   name="server.png"
+   text-time="2012-07-05T08:36:46.595628Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="d72bafe31b00df4c164b0bb735520661"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.612066Z"/>
+<entry
+   committed-rev="168"
+   name="sent.png"
+   text-time="2012-07-05T08:36:46.595628Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="a4cd7bd79c1e46dcdb9506cafeade91d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.658922Z"/>
+<entry
+   committed-rev="168"
+   name="network.gif"
+   text-time="2012-07-05T08:36:46.611247Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="9df92aa902dba4ac3006db934bd8841c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.721396Z"/>
+<entry
+   committed-rev="168"
+   name="r-button.png"
+   text-time="2012-07-05T08:36:46.611247Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="235b9e5f15ff88383fa79bac9517abad"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.737015Z"/>
+<entry
+   committed-rev="168"
+   name="category-over-seld.png"
+   text-time="2012-07-05T08:36:46.626866Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="6f6d4e823197b1d645a195dbff9cc802"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.768252Z"/>
+<entry
+   committed-rev="168"
+   name="Load.png"
+   text-time="2012-07-05T08:36:46.626866Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="a6cf1bfc27dcf83226484b38d0a71666"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.783871Z"/>
+<entry
+   committed-rev="188"
+   name="product.png"
+   text-time="2012-07-05T08:36:46.642484Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="94d7512a0d7a9a9366c1f44c7392e4dd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.830727Z"/>
+<entry
+   committed-rev="168"
+   name="logo.gif"
+   text-time="2012-07-05T08:36:46.658103Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="df5b3e7ff4957f9f4f61cd90375ce6c7"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.861964Z"/>
+<entry
+   committed-rev="168"
+   name="notice.png"
+   text-time="2012-07-05T08:36:46.658103Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="e49b30b3de5e5a01b169486666940c63"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.908820Z"/>
+<entry
+   committed-rev="168"
+   name="red_element.png"
+   text-time="2012-07-05T08:36:46.673721Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="2d6ac3e42714f6395d20ff01603e1f86"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.940057Z"/>
+<entry
+   committed-rev="168"
+   name="Profile.ico"
+   text-time="2012-07-05T08:36:46.673721Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="b862b1e8acac1bcd29192edc86936ece"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:44.971294Z"/>
+<entry
+   committed-rev="168"
+   name="red_alarm.png"
+   text-time="2012-07-05T08:36:46.689340Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="ea0afcb24f39b596515c6b6b2663f23b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.002531Z"/>
+<entry
+   committed-rev="168"
+   name="add.png"
+   text-time="2012-07-05T08:36:46.704959Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="e205c94ed67c5e555b5245e5a028fd1f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.049387Z"/>
+<entry
+   committed-rev="168"
+   name="red_access.png"
+   text-time="2012-07-05T08:36:46.704959Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="5741cfe2e2ba34286063845dcc629602"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.080624Z"/>
+<entry
+   committed-rev="168"
+   name="search.ico"
+   text-time="2012-07-05T08:36:46.720577Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="a6c472bcd2bf2737b5bef51715e3a448"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.096243Z"/>
+<entry
+   committed-rev="168"
+   name="red_realtime.png"
+   text-time="2012-07-05T08:36:46.767433Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="df563e4d5dedac604b369b9f9ac8fc3f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.127480Z"/>
+<entry
+   committed-rev="168"
+   name="clicksta.png"
+   text-time="2012-07-05T08:36:46.767433Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="fa8465df8f7c9dd09c9821d5937924ba"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.174336Z"/>
+<entry
+   committed-rev="168"
+   name="previous.gif"
+   text-time="2012-07-05T08:36:46.783052Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="8afabfbc5e1c6277d68ea3b741617929"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.205573Z"/>
+<entry
+   committed-rev="168"
+   name="msn1.gif"
+   text-time="2012-07-05T08:36:46.798670Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="e64be8374e0563607de94f5781d9878f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.221192Z"/>
+<entry
+   committed-rev="168"
+   name="msn2.gif"
+   text-time="2012-07-05T08:36:46.798670Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="71d79fea96772644e04dd74c2ae1e4c0"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.268047Z"/>
+<entry
+   committed-rev="168"
+   name="sun.jpg"
+   text-time="2012-07-05T08:36:46.814289Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="c39e733fe845eabddc79edd2832afbeb"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.346140Z"/>
+<entry
+   committed-rev="168"
+   name="earth.png"
+   text-time="2012-07-05T08:36:46.814289Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="923649c99ae9ed658bf9c49f4b4b540c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.377378Z"/>
+<entry
+   committed-rev="168"
+   name="Loading.ico"
+   text-time="2012-07-05T08:36:46.829907Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="bbf68097f3f2c41a2dc4283cf8829fab"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.408615Z"/>
+<entry
+   committed-rev="188"
+   name="Thumbs.db"
+   text-time="2012-07-05T08:36:46.845526Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="48785c643a439e0ae824559aa6bf017c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.439852Z"/>
+<entry
+   committed-rev="168"
+   name="Warning.png"
+   text-time="2012-07-05T08:36:46.861145Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="94f13149a98c7be785309bcbe13b1f7a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.471089Z"/>
+<entry
+   committed-rev="168"
+   name="messagebox_critical.png"
+   text-time="2012-07-05T08:36:46.876763Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="f4c982f50cc027a1ca83634b651a50db"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.486708Z"/>
+<entry
+   committed-rev="168"
+   name="channel.png"
+   text-time="2012-07-05T08:36:46.876763Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="61c6995c537286f7fcc019950d2922ec"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.533564Z"/>
+<entry
+   committed-rev="168"
+   name="item1.jpg"
+   text-time="2012-07-05T08:36:46.892382Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="1a97107930328c7f3927047db78b452c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.564801Z"/>
+<entry
+   committed-rev="168"
+   name="castle.png"
+   text-time="2012-07-05T08:36:46.908000Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="94328e19d7e57586e429962c1a251da6"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.596038Z"/>
+<entry
+   committed-rev="168"
+   name="Picture.png"
+   text-time="2012-07-05T08:36:46.908000Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="ab73f9ac0496234046db1b045b157881"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.627275Z"/>
+<entry
+   committed-rev="188"
+   name="outstock.png"
+   text-time="2012-07-05T08:36:46.923619Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="728e849facda86c6f998449537e9ab14"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.689750Z"/>
+<entry
+   committed-rev="168"
+   name="item2.jpg"
+   text-time="2012-07-05T08:36:46.923619Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="ef3696bb13f1cc493230fc7123840b59"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.720987Z"/>
+<entry
+   committed-rev="168"
+   name="item3.jpg"
+   text-time="2012-07-05T08:36:46.939238Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="ac878a83f6cf9de77a4b5ca497fa3bf1"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.767843Z"/>
+<entry
+   committed-rev="168"
+   name="item4.jpg"
+   text-time="2012-07-05T08:36:46.939238Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="5530b1c995f0d2e6c75ce524f9147e6e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.799080Z"/>
+<entry
+   committed-rev="168"
+   name="Save.ico"
+   text-time="2012-07-05T08:36:46.954856Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="1dc871f1a422db8b61aab3c5b6a7a4b5"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.830317Z"/>
+<entry
+   committed-rev="188"
+   name="sale.png"
+   text-time="2012-07-05T08:36:46.970475Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="d96d55aa8475f69403462a43597fa365"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.845936Z"/>
+<entry
+   committed-rev="168"
+   name="Bar Chart.png"
+   text-time="2012-07-05T08:36:46.970475Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="540da74da0caf163d7374c7a2751c255"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.877173Z"/>
+<entry
+   committed-rev="168"
+   name="Modify.png"
+   text-time="2012-07-05T08:36:47.001712Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="c103431bc5a7c4ecf8f597768da97ddd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:45.924029Z"/>
+</wc-entries>

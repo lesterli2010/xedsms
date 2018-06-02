@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.model.CityMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.City" >
+    <id column="city_id" property="cityId" jdbcType="INTEGER" />
+    <result column="city_name" property="cityName" jdbcType="VARCHAR" />
+    <result column="city_zcode" property="cityZcode" jdbcType="CHAR" />
+    <result column="city_pcode" property="cityPcode" jdbcType="VARCHAR" />
+    <result column="prov_id" property="provId" jdbcType="INTEGER" />
+    <result column="city_py" property="cityPy" jdbcType="VARCHAR" />
+    <result column="city_zm" property="cityZm" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    city_id, city_name, city_zcode, city_pcode, prov_id, city_py, city_zm
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.CityExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from city
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from city
+    where city_id = #{cityId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from city
+    where city_id = #{cityId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.hxdq.xedsms.db.model.CityExample" >
+    delete from city
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.hxdq.xedsms.db.model.City" >
+    <selectKey resultType="java.lang.Integer" keyProperty="cityId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into city (city_name, city_zcode, city_pcode, 
+      prov_id, city_py, city_zm
+      )
+    values (#{cityName,jdbcType=VARCHAR}, #{cityZcode,jdbcType=CHAR}, #{cityPcode,jdbcType=VARCHAR}, 
+      #{provId,jdbcType=INTEGER}, #{cityPy,jdbcType=VARCHAR}, #{cityZm,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.hxdq.xedsms.db.model.City" >
+    <selectKey resultType="java.lang.Integer" keyProperty="cityId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into city
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="cityName != null" >
+        city_name,
+      </if>
+      <if test="cityZcode != null" >
+        city_zcode,
+      </if>
+      <if test="cityPcode != null" >
+        city_pcode,
+      </if>
+      <if test="provId != null" >
+        prov_id,
+      </if>
+      <if test="cityPy != null" >
+        city_py,
+      </if>
+      <if test="cityZm != null" >
+        city_zm,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="cityName != null" >
+        #{cityName,jdbcType=VARCHAR},
+      </if>
+      <if test="cityZcode != null" >
+        #{cityZcode,jdbcType=CHAR},
+      </if>
+      <if test="cityPcode != null" >
+        #{cityPcode,jdbcType=VARCHAR},
+      </if>
+      <if test="provId != null" >
+        #{provId,jdbcType=INTEGER},
+      </if>
+      <if test="cityPy != null" >
+        #{cityPy,jdbcType=VARCHAR},
+      </if>
+      <if test="cityZm != null" >
+        #{cityZm,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.hxdq.xedsms.db.model.CityExample" resultType="java.lang.Integer" >
+    select count(*) from city
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update city
+    <set >
+      <if test="record.cityId != null" >
+        city_id = #{record.cityId,jdbcType=INTEGER},
+      </if>
+      <if test="record.cityName != null" >
+        city_name = #{record.cityName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cityZcode != null" >
+        city_zcode = #{record.cityZcode,jdbcType=CHAR},
+      </if>
+      <if test="record.cityPcode != null" >
+        city_pcode = #{record.cityPcode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.provId != null" >
+        prov_id = #{record.provId,jdbcType=INTEGER},
+      </if>
+      <if test="record.cityPy != null" >
+        city_py = #{record.cityPy,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cityZm != null" >
+        city_zm = #{record.cityZm,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update city
+    set city_id = #{record.cityId,jdbcType=INTEGER},
+      city_name = #{record.cityName,jdbcType=VARCHAR},
+      city_zcode = #{record.cityZcode,jdbcType=CHAR},
+      city_pcode = #{record.cityPcode,jdbcType=VARCHAR},
+      prov_id = #{record.provId,jdbcType=INTEGER},
+      city_py = #{record.cityPy,jdbcType=VARCHAR},
+      city_zm = #{record.cityZm,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hxdq.xedsms.db.model.City" >
+    update city
+    <set >
+      <if test="cityName != null" >
+        city_name = #{cityName,jdbcType=VARCHAR},
+      </if>
+      <if test="cityZcode != null" >
+        city_zcode = #{cityZcode,jdbcType=CHAR},
+      </if>
+      <if test="cityPcode != null" >
+        city_pcode = #{cityPcode,jdbcType=VARCHAR},
+      </if>
+      <if test="provId != null" >
+        prov_id = #{provId,jdbcType=INTEGER},
+      </if>
+      <if test="cityPy != null" >
+        city_py = #{cityPy,jdbcType=VARCHAR},
+      </if>
+      <if test="cityZm != null" >
+        city_zm = #{cityZm,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where city_id = #{cityId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hxdq.xedsms.db.model.City" >
+    update city
+    set city_name = #{cityName,jdbcType=VARCHAR},
+      city_zcode = #{cityZcode,jdbcType=CHAR},
+      city_pcode = #{cityPcode,jdbcType=VARCHAR},
+      prov_id = #{provId,jdbcType=INTEGER},
+      city_py = #{cityPy,jdbcType=VARCHAR},
+      city_zm = #{cityZm,jdbcType=VARCHAR}
+    where city_id = #{cityId,jdbcType=INTEGER}
+  </update>
+  <select resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.CityExample" id="selectByExampleWithRowbounds" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from city
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

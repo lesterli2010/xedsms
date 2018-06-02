@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2012-06-21T00:48:35.937802Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/mybatis-generator"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="170"
+   name="GenerateDBModel.xml"
+   text-time="2012-07-05T08:36:47.485889Z"
+   committed-date="2012-06-19T03:36:42.657792Z"
+   checksum="32445988c0bf43dff5af0be61f0450ce"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.407796Z"/>
+<entry
+   committed-rev="185"
+   name="generator-config.xml"
+   text-time="2012-07-05T08:36:47.501507Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="d954cbe16a838d5b285c5e4dd5e57988"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:47.470270Z"/>
+</wc-entries>

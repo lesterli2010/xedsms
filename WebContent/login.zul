@@ -1,0 +1,73 @@
+<?page title="欢迎使用潍坊恒信电器XED节能灯销售管理系统" contentType="text/html;charset=UTF-8"?>
+<?link  rel="Shortcut Icon"  href="/img/product.png"?>
+<?link  rel="Bookmark"  href="/img/product.png"?> 
+<zk>
+	<borderlayout>
+		<north size="18%" border="none" />
+		<east size="24%" border="none" />
+		<center border="none">
+			<div>
+				<image src="/img/bk1.jpg" />
+				<window id="loginwin" title="欢迎使用XED节能灯销售管理系统" width="400px"
+					mode="overlapped" position="center" border="normal"
+					contentStyle="overflow:auto"
+					xmlns:a="http://www.zkoss.org/2005/zk/annotation"
+					xmlns="http://www.zkoss.org/2005/zul"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd"
+					use="com.hxdq.xedsms.web.window.LoginWindow">
+					<caption image="/img/product.png" />
+					<panel>
+						<panelchildren>
+							<h:form id="f" name="f"
+								action="j_spring_security_check" method="POST"
+								xmlns:h="http://www.w3.org/1999/xhtml">
+								<label id="loginErrorLabel" value="登录失败，用户名或密码错误" style="color:red" visible="false"/>
+								<grid>
+									<columns>
+										<column width="30%"/>
+										<column width="70%"/>
+									</columns>
+									<rows>
+										<row>
+											<label value="用户名:" />
+											<textbox id="userID"
+												name="j_username" constraint="No Empty" width="70%">
+											</textbox>
+
+										</row>
+										<row>
+											<label value="密码:" />
+											<textbox id="password"
+												type="password" name="j_password" constraint="No Empty" width="70%"/>
+										</row>
+										<row>
+											<div/>
+											<div>
+												<checkbox id="r"
+													name="_spring_security_remember_me" />
+												<label id="nologin" value="两周内无需登录" />
+											</div>
+										</row>
+
+										<row>
+											<div/>
+											<div>
+												<h:input type="submit"
+													value="登录"/>
+												<h:input type="reset"
+													value="重设" />
+											</div>
+										</row>
+									</rows>
+								</grid>
+							</h:form>
+						</panelchildren>
+					</panel>
+				</window>
+			</div>
+		</center>
+		<west size="24%" border="none" />
+		<south size="18%" border="none" />
+	</borderlayout>
+</zk>

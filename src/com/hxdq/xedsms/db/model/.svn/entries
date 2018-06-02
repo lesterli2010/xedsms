@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2012-06-21T00:48:35.937802Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq/xedsms/db/model"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="173"
+   name="InstockproductMapper.xml"
+   text-time="2012-07-05T08:36:13.765331Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="efbbe14b07d7c9b88c5edbcac06545e8"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.609964Z"/>
+<entry
+   committed-rev="173"
+   name="UserauthorityExample.java"
+   text-time="2012-07-05T08:36:13.780950Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="4a3682b1f01d51a8f0cb1a61d7cb0d8c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.672439Z"/>
+<entry
+   committed-rev="173"
+   name="Specinfo.java"
+   text-time="2012-07-05T08:36:13.796568Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="5f1b33e5734f7ebf0b32323443496bf2"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.734913Z"/>
+<entry
+   committed-rev="173"
+   name="ProductinfoExample.java"
+   text-time="2012-07-05T08:36:13.812187Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ff09fbb6ddd6e138f3e840b472e3e2fb"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.781769Z"/>
+<entry
+   committed-rev="185"
+   name="UserauthorityMapper.xml"
+   text-time="2012-07-05T08:36:13.859043Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="f8c07a820494a1f835b2c78eab4d48c1"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.875481Z"/>
+<entry
+   committed-rev="173"
+   name="Instockproduct.java"
+   text-time="2012-07-05T08:36:13.843424Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="26be4c622b5b1c343533deb19a9a54b3"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.844243Z"/>
+<entry
+   committed-rev="173"
+   name="SpecinfoMapper.java"
+   text-time="2012-07-05T08:36:13.827806Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="960c3316671041a7c37ec54e260b3932"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.828625Z"/>
+<entry
+   committed-rev="185"
+   name="CustomerExample.java"
+   text-time="2012-07-05T08:36:13.874661Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="fac8868094a400ddfb63646bbe2146c9"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.891099Z"/>
+<entry
+   committed-rev="173"
+   name="Productbatch.java"
+   text-time="2012-07-05T08:36:13.921517Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="a46d7e111eb0b48106fe683cea6da5d8"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.000429Z"/>
+<entry
+   committed-rev="173"
+   name="SpecinfoExample.java"
+   text-time="2012-07-05T08:36:13.890280Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="4d302eba0d28bdc865ac5936ef1c6fd2"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:11.953574Z"/>
+<entry
+   committed-rev="185"
+   name="CustomerMapper.xml"
+   text-time="2012-07-05T08:36:13.937136Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="b0b34fd46e226c5ff4acf1fcc9192e48"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.031667Z"/>
+<entry
+   committed-rev="173"
+   name="ProductbatchMapper.java"
+   text-time="2012-07-05T08:36:13.952754Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="411f14afcc6705e6b8b059429030ba76"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.062904Z"/>
+<entry
+   committed-rev="173"
+   name="Userauthority.java"
+   text-time="2012-07-05T08:36:13.952754Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="2a9e5a89f10b41f0d6e43296f47e0f2f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.047285Z"/>
+<entry
+   committed-rev="173"
+   name="OutstockProductExample.java"
+   text-time="2012-07-05T08:36:13.968373Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="a2a1b4b8bbf5f02db20069d8a6b4c0f3"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.078522Z"/>
+<entry
+   committed-rev="173"
+   name="ProvinceKey.java"
+   text-time="2012-07-05T08:36:13.999610Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="0a1a685285aa5379018e0ab2dd10ec5b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.125378Z"/>
+<entry
+   committed-rev="173"
+   name="ProductbatchExample.java"
+   text-time="2012-07-05T08:36:14.015229Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ca2f48692105545c298bdfdb5accf90d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.140997Z"/>
+<entry
+   committed-rev="185"
+   name="UserMapper.xml"
+   text-time="2012-07-05T08:36:14.030847Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="f95971dbb92c6bb3044f191091758ca9"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.172234Z"/>
+<entry
+   committed-rev="178"
+   name="StockstatusExample.java"
+   text-time="2012-07-05T08:36:14.046466Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="02b08bd0308edaafbaf103196ecef323"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.219090Z"/>
+<entry
+   committed-rev="173"
+   name="CustomerMapper.java"
+   text-time="2012-07-05T08:36:14.062085Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="2175cba115ddc41e470f9e6199ee3d45"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.234708Z"/>
+<entry
+   committed-rev="173"
+   name="City.java"
+   text-time="2012-07-05T08:36:14.077703Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="bd8a725744fbad5ab2386bf9733765d0"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.297183Z"/>
+<entry
+   committed-rev="178"
+   name="StockstatusMapper.xml"
+   text-time="2012-07-05T08:36:14.093322Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="ed181ce18d2ff87a70722b0f0cfd2090"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.312801Z"/>
+<entry
+   committed-rev="173"
+   name="CityMapper.java"
+   text-time="2012-07-05T08:36:14.108940Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="31b9309549943b908a2d270e99c7323f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.344039Z"/>
+<entry
+   committed-rev="173"
+   name="Usageinfo.java"
+   text-time="2012-07-05T08:36:14.124559Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ed7556acf550e35986df8a92fd003ece"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.375276Z"/>
+<entry
+   committed-rev="173"
+   name="OutstockMapper.java"
+   text-time="2012-07-05T08:36:14.124559Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="6902abc44321e1be6c4d1bf595b4c992"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.390894Z"/>
+<entry
+   committed-rev="173"
+   name="UsageinfoMapper.java"
+   text-time="2012-07-05T08:36:14.140178Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="28120aa969a07a42dc1e3f5db4504e22"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.422132Z"/>
+<entry
+   committed-rev="173"
+   name="Province.java"
+   text-time="2012-07-05T08:36:14.155796Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="05284f5085ef380cc1f89c147565e6fc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.484606Z"/>
+<entry
+   committed-rev="173"
+   name="Dkspecinfo.java"
+   text-time="2012-07-05T08:36:14.171415Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="e77e2a70d2edbd7a4637408203a90ded"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.500225Z"/>
+<entry
+   committed-rev="178"
+   name="Stockstatus.java"
+   text-time="2012-07-05T08:36:14.187033Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="8af91bc3078baabd5ac1537f607fd077"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.547080Z"/>
+<entry
+   committed-rev="173"
+   name="SalerMapper.xml"
+   text-time="2012-07-05T08:36:14.202652Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="087a8ed3e54be5189a91ece890b2f413"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.609555Z"/>
+<entry
+   committed-rev="173"
+   name="Productinfo.java"
+   text-time="2012-07-05T08:36:14.218271Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="8d793fa4e2ce06c0e7da13ca9d328d6a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.625173Z"/>
+<entry
+   committed-rev="173"
+   name="CityMapper.xml"
+   text-time="2012-07-05T08:36:14.233889Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="878495a4def2aafc4d8a82529f4dfb55"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.640792Z"/>
+<entry
+   committed-rev="173"
+   name="InstockMapper.xml"
+   text-time="2012-07-05T08:36:14.249508Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="f33383034d6e475bc77c1e53f812112b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.656411Z"/>
+<entry
+   committed-rev="173"
+   name="ProductinfoMapper.java"
+   text-time="2012-07-05T08:36:14.265126Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="afe3e59e7116046787836e0e01b4aa19"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.687648Z"/>
+<entry
+   committed-rev="173"
+   name="UsageinfoMapper.xml"
+   text-time="2012-07-05T08:36:14.280745Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="e9e806a98b9471af09cfc92b20621be3"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.703266Z"/>
+<entry
+   committed-rev="173"
+   name="OutstockProduct.java"
+   text-time="2012-07-05T08:36:14.296364Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="3d7d857803810ca6fb52d969c6087299"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.750122Z"/>
+<entry
+   committed-rev="173"
+   name="User.java"
+   text-time="2012-07-05T08:36:14.311982Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="fb90df46a4013c700f97e50cb593b21a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.765741Z"/>
+<entry
+   committed-rev="173"
+   name="InstockproductMapper.java"
+   text-time="2012-07-05T08:36:14.343219Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="953e2e06ec3667e8a9737c710d12f15e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.843834Z"/>
+<entry
+   committed-rev="173"
+   name="ProductinfoMapper.xml"
+   text-time="2012-07-05T08:36:14.327601Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="c69dec05bbd59f618b31df9ffe44ce3e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.796978Z"/>
+<entry
+   committed-rev="173"
+   name="OutstockProductMapper.java"
+   text-time="2012-07-05T08:36:14.358838Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="cfeb6d9864c589202ae8bda387dfaadd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.859452Z"/>
+<entry
+   committed-rev="173"
+   name="UserMapper.java"
+   text-time="2012-07-05T08:36:14.374457Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="1e72183ac2487bcaef040d56e9f72643"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.875071Z"/>
+<entry
+   committed-rev="181"
+   name="OutstockExample.java"
+   text-time="2012-07-05T08:36:14.390075Z"
+   committed-date="2012-06-20T01:23:46.677905Z"
+   checksum="aba612c81e25627f729b7fa6132bd601"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.937545Z"/>
+<entry
+   committed-rev="173"
+   name="SpecinfoMapper.xml"
+   text-time="2012-07-05T08:36:14.421312Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="f29accf2e8a108deec514d6eb873dfcd"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.015638Z"/>
+<entry
+   committed-rev="173"
+   name="UserExample.java"
+   text-time="2012-07-05T08:36:14.405694Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="eb8ebb571c56e599df45d2944b900e24"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:12.953164Z"/>
+<entry
+   committed-rev="173"
+   name="UserauthorityMapper.java"
+   text-time="2012-07-05T08:36:14.436931Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="09f4b457be4fa7f407536c8c9a09f9bc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.062494Z"/>
+<entry
+   committed-rev="181"
+   name="OutstockMapper.xml"
+   text-time="2012-07-05T08:36:14.452550Z"
+   committed-date="2012-06-20T01:23:46.677905Z"
+   checksum="876e7aef978d04a5dbdb624725972283"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.124969Z"/>
+<entry
+   committed-rev="173"
+   name="OutstockProductMapper.xml"
+   text-time="2012-07-05T08:36:14.468168Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="b3c1d91e531ea3c7a8b74d9bc9fb4569"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.156206Z"/>
+<entry
+   committed-rev="185"
+   name="Customer.java"
+   text-time="2012-07-05T08:36:14.515024Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="4ca379aedaebefd3db90b799b227012e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.249917Z"/>
+<entry
+   committed-rev="173"
+   name="DkspecinfoExample.java"
+   text-time="2012-07-05T08:36:14.499405Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="d0af835df086725d4612699aa12fb62d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.203062Z"/>
+<entry
+   committed-rev="173"
+   name="ProvinceExample.java"
+   text-time="2012-07-05T08:36:14.483787Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="71f2327bed06e0d8b2a427bb1117a690"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.187443Z"/>
+<entry
+   committed-rev="173"
+   name="ProductbatchMapper.xml"
+   text-time="2012-07-05T08:36:14.546261Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="89691b3414d385797700d605836af442"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.312392Z"/>
+<entry
+   committed-rev="173"
+   name="Saler.java"
+   text-time="2012-07-05T08:36:14.530643Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="5452f88b2b0e982603ca2667903fc8d1"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.281155Z"/>
+<entry
+   committed-rev="173"
+   name="DkspecinfoMapper.xml"
+   text-time="2012-07-05T08:36:14.577498Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="214365419f3eee584fb50fd1e6aa528a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.390485Z"/>
+<entry
+   committed-rev="173"
+   name="ProvinceMapper.xml"
+   text-time="2012-07-05T08:36:14.561880Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="239fe862f05eefcd907befe8d2893ebe"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.359248Z"/>
+<entry
+   committed-rev="173"
+   name="Instock.java"
+   text-time="2012-07-05T08:36:14.593117Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="4f965329a11a4e5e1ba1ace055c4978b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.421722Z"/>
+<entry
+   committed-rev="181"
+   name="Outstock.java"
+   text-time="2012-07-05T08:36:14.624354Z"
+   committed-date="2012-06-20T01:23:46.677905Z"
+   checksum="e4d3ae733533ae57991b00355e02589c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.452959Z"/>
+<entry
+   committed-rev="173"
+   name="SalerMapper.java"
+   text-time="2012-07-05T08:36:14.608736Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="daab7b1f4f9eaa93fe8acffe7a70712d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.437341Z"/>
+<entry
+   committed-rev="173"
+   name="InstockMapper.java"
+   text-time="2012-07-05T08:36:14.639973Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="5622031714defd0a06c36b937a275438"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.499815Z"/>
+<entry
+   committed-rev="173"
+   name="SalerExample.java"
+   text-time="2012-07-05T08:36:14.655591Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ba3662e4566268d3a3468dee714312f6"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.531052Z"/>
+<entry
+   committed-rev="173"
+   name="CityExample.java"
+   text-time="2012-07-05T08:36:14.671210Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="5ef58e8c7ca40c2768b00a1dc3770e8b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.562289Z"/>
+<entry
+   committed-rev="173"
+   name="InstockExample.java"
+   text-time="2012-07-05T08:36:14.686829Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="77ab37b8bf4d7864b0618522375c36fb"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.577908Z"/>
+<entry
+   committed-rev="173"
+   name="InstockproductExample.java"
+   text-time="2012-07-05T08:36:14.702447Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="12ea17e760a6fd8a27e602aa376141b3"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.609145Z"/>
+<entry
+   committed-rev="173"
+   name="DkspecinfoMapper.java"
+   text-time="2012-07-05T08:36:14.733684Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="26185061680a38baf8bf833e2b2fd682"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.687238Z"/>
+<entry
+   committed-rev="173"
+   name="ProvinceMapper.java"
+   text-time="2012-07-05T08:36:14.718066Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="174a26ec9ce6e2ee41bef324ecabb19a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.640382Z"/>
+<entry
+   committed-rev="173"
+   name="UsageinfoExample.java"
+   text-time="2012-07-05T08:36:14.749303Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="7f637c97476aa5951e1674ec124da7df"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.702857Z"/>
+<entry
+   committed-rev="173"
+   name="StockstatusMapper.java"
+   text-time="2012-07-05T08:36:14.796159Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="fb5363f16cf390af36508cfe8a7446ff"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:13.734094Z"/>
+</wc-entries>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.prisql.InstockMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Instock" >
+    <id column="in_id" property="inId" jdbcType="INTEGER" />
+    <result column="in_time" property="inTime" jdbcType="TIMESTAMP" />
+    <result column="operator" property="operator" jdbcType="CHAR" />
+  </resultMap>
+  <select id="get_count_by_prodid" parameterType="HashMap" resultType="Integer">
+  	select count(in_id) from instock where in_id in (select in_id from instockproduct where product_id = #{product_id})
+	</select>
+	
+	<select id="get_list_by_prodid" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.InstockMapper.BaseResultMap">
+  	select * from instock where in_id in (select in_id from instockproduct where product_id = #{product_id}) order by in_id desc limit #{start_index},#{max_result}
+	</select>
+	
+	  <select id="get_count_by_prodid_time" parameterType="HashMap" resultType="Integer">
+  	select count(in_id) from instock where in_time&gt;#{start_date} and
+		in_time&lt;#{end_date} and in_id in (select in_id from instockproduct where product_id = #{product_id})
+	</select>
+	
+	<select id="get_list_by_prodid_time" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.InstockMapper.BaseResultMap">
+  	select * from instock where in_time&gt;#{start_date} and
+		in_time&lt;#{end_date} and in_id in (select in_id from instockproduct where product_id = #{product_id}) order by in_id desc limit #{start_index},#{max_result}
+	</select>
+	
+	<select id="get_count_by_time" parameterType="HashMap" resultType="Integer">
+  	select count(in_id) from instock where in_time&gt;#{start_date} and
+		in_time&lt;#{end_date} 
+	</select>
+	
+	<select id="get_list_by_time" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.InstockMapper.BaseResultMap">
+  	select * from instock where in_time&gt;#{start_date} and
+		in_time&lt;#{end_date} order by in_id desc limit #{start_index},#{max_result}
+	</select>
+	
+	
+	<select id="get_list_limit" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.InstockMapper.BaseResultMap">
+  			select * from instock order by in_id desc limit #{start_index},#{max_result}
+	</select>
+</mapper>

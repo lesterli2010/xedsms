@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.model.DkspecinfoMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Dkspecinfo" >
+    <id column="dkspec_id" property="dkspecId" jdbcType="INTEGER" />
+    <result column="dkspec_name" property="dkspecName" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    dkspec_id, dkspec_name
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.DkspecinfoExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from dkspecinfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from dkspecinfo
+    where dkspec_id = #{dkspecId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from dkspecinfo
+    where dkspec_id = #{dkspecId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.hxdq.xedsms.db.model.DkspecinfoExample" >
+    delete from dkspecinfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.hxdq.xedsms.db.model.Dkspecinfo" >
+    <selectKey resultType="java.lang.Integer" keyProperty="dkspecId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into dkspecinfo (dkspec_name)
+    values (#{dkspecName,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.hxdq.xedsms.db.model.Dkspecinfo" >
+    <selectKey resultType="java.lang.Integer" keyProperty="dkspecId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into dkspecinfo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="dkspecName != null" >
+        dkspec_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="dkspecName != null" >
+        #{dkspecName,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.hxdq.xedsms.db.model.DkspecinfoExample" resultType="java.lang.Integer" >
+    select count(*) from dkspecinfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update dkspecinfo
+    <set >
+      <if test="record.dkspecId != null" >
+        dkspec_id = #{record.dkspecId,jdbcType=INTEGER},
+      </if>
+      <if test="record.dkspecName != null" >
+        dkspec_name = #{record.dkspecName,jdbcType=CHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update dkspecinfo
+    set dkspec_id = #{record.dkspecId,jdbcType=INTEGER},
+      dkspec_name = #{record.dkspecName,jdbcType=CHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hxdq.xedsms.db.model.Dkspecinfo" >
+    update dkspecinfo
+    <set >
+      <if test="dkspecName != null" >
+        dkspec_name = #{dkspecName,jdbcType=CHAR},
+      </if>
+    </set>
+    where dkspec_id = #{dkspecId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hxdq.xedsms.db.model.Dkspecinfo" >
+    update dkspecinfo
+    set dkspec_name = #{dkspecName,jdbcType=CHAR}
+    where dkspec_id = #{dkspecId,jdbcType=INTEGER}
+  </update>
+  <select resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.DkspecinfoExample" id="selectByExampleWithRowbounds" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from dkspecinfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

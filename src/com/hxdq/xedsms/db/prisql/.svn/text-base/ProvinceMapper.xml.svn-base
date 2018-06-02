@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.model.ProvinceMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Province" >
+    <id column="prov_id" property="provId" jdbcType="INTEGER" />
+    <id column="prov_name" property="provName" jdbcType="VARCHAR" />
+    <result column="prov_py" property="provPy" jdbcType="VARCHAR" />
+    <result column="prov_zm" property="provZm" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    prov_id, prov_name, prov_py, prov_zm
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.ProvinceExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from province
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.ProvinceKey" >
+    select 
+    <include refid="Base_Column_List" />
+    from province
+    where prov_id = #{provId,jdbcType=INTEGER}
+      and prov_name = #{provName,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="com.hxdq.xedsms.db.model.ProvinceKey" >
+    delete from province
+    where prov_id = #{provId,jdbcType=INTEGER}
+      and prov_name = #{provName,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.hxdq.xedsms.db.model.ProvinceExample" >
+    delete from province
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.hxdq.xedsms.db.model.Province" >
+    <selectKey resultType="java.lang.Integer" keyProperty="provId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into province (prov_name, prov_py, prov_zm
+      )
+    values (#{provName,jdbcType=VARCHAR}, #{provPy,jdbcType=VARCHAR}, #{provZm,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.hxdq.xedsms.db.model.Province" >
+    <selectKey resultType="java.lang.Integer" keyProperty="provId" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into province
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="provName != null" >
+        prov_name,
+      </if>
+      <if test="provPy != null" >
+        prov_py,
+      </if>
+      <if test="provZm != null" >
+        prov_zm,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="provName != null" >
+        #{provName,jdbcType=VARCHAR},
+      </if>
+      <if test="provPy != null" >
+        #{provPy,jdbcType=VARCHAR},
+      </if>
+      <if test="provZm != null" >
+        #{provZm,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.hxdq.xedsms.db.model.ProvinceExample" resultType="java.lang.Integer" >
+    select count(*) from province
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update province
+    <set >
+      <if test="record.provId != null" >
+        prov_id = #{record.provId,jdbcType=INTEGER},
+      </if>
+      <if test="record.provName != null" >
+        prov_name = #{record.provName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.provPy != null" >
+        prov_py = #{record.provPy,jdbcType=VARCHAR},
+      </if>
+      <if test="record.provZm != null" >
+        prov_zm = #{record.provZm,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update province
+    set prov_id = #{record.provId,jdbcType=INTEGER},
+      prov_name = #{record.provName,jdbcType=VARCHAR},
+      prov_py = #{record.provPy,jdbcType=VARCHAR},
+      prov_zm = #{record.provZm,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hxdq.xedsms.db.model.Province" >
+    update province
+    <set >
+      <if test="provPy != null" >
+        prov_py = #{provPy,jdbcType=VARCHAR},
+      </if>
+      <if test="provZm != null" >
+        prov_zm = #{provZm,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where prov_id = #{provId,jdbcType=INTEGER}
+      and prov_name = #{provName,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hxdq.xedsms.db.model.Province" >
+    update province
+    set prov_py = #{provPy,jdbcType=VARCHAR},
+      prov_zm = #{provZm,jdbcType=VARCHAR}
+    where prov_id = #{provId,jdbcType=INTEGER}
+      and prov_name = #{provName,jdbcType=VARCHAR}
+  </update>
+  <select resultMap="BaseResultMap" parameterType="com.hxdq.xedsms.db.model.ProvinceExample" id="selectByExampleWithRowbounds" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from province
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

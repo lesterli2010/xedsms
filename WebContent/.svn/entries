@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="246"
+   name=""
+   committed-date="2012-07-05T04:59:40.626928Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/WebContent"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="168"
+   name="timeout.zul"
+   text-time="2012-07-05T08:36:47.267228Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="899edbd5ab0f057726f3267db3d6d4a4"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.309934Z"/>
+<entry
+   name="META-INF"
+   kind="dir"/>
+<entry
+   committed-rev="192"
+   name="login.zul"
+   text-time="2012-07-05T08:36:47.282847Z"
+   committed-date="2012-06-21T09:07:42.851253Z"
+   checksum="47242a62b6463d7fffaa94c3fd5d93a9"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.481739Z"/>
+<entry
+   name="main"
+   kind="dir"/>
+<entry
+   name="WEB-INF"
+   kind="dir"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   name="etc"
+   kind="dir"/>
+<entry
+   name="img"
+   kind="dir"/>
+<entry
+   name="js"
+   kind="dir"/>
+</wc-entries>

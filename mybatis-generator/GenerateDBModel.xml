@@ -1,0 +1,17 @@
+<project name="gen-db" default="gen">
+	<target name="gen" description="Generate DB Code by MyBatis">
+		<echo message="Generate DB Code by MyBatis" />
+		<echo message="Removing Old Mapper XML Files" />
+		<delete>
+			<fileset dir="..\src\com\hxdq\xedsms\db\model">
+				<include name="*.xml" />
+			</fileset>
+		</delete>
+		
+		<java fork="yes" classname="org.mybatis.generator.api.ShellRunner" classpath="../WebContent/WEB-INF/lib/mybatis-generator-core-1.3.1.jar;../WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar;../WebContent/WEB-INF/lib/mybatis-paging.jar;../build/classes">
+			<arg line="-configfile" />
+			<arg line="./generator-config.xml " />
+			<arg line="-overwrite" />
+		</java>
+	</target>
+</project>

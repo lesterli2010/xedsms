@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="197"
+   name=""
+   committed-date="2012-06-25T01:29:47.025444Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq/xedsms/web/window"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="173"
+   name="LoginWindow.java"
+   text-time="2012-07-05T08:36:17.513795Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="df7a27611edd51a4d1f60e36e5e87658"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.561061Z"/>
+<entry
+   committed-rev="188"
+   name="ModifyCustomerWindow.java"
+   text-time="2012-07-05T08:36:17.529414Z"
+   committed-date="2012-06-21T06:11:46.113801Z"
+   checksum="83a6ed926698d07043e13e27185ac5b1"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.592298Z"/>
+<entry
+   committed-rev="178"
+   name="SelectInstockWindow.java"
+   text-time="2012-07-05T08:36:17.591888Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="819caad3829946787943a1fb558d59bc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.701628Z"/>
+<entry
+   committed-rev="185"
+   name="AddCustomerWindow.java"
+   text-time="2012-07-05T08:36:17.576270Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="fa28a24b883ebae1c0a7ef24dbf027ab"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.686009Z"/>
+<entry
+   committed-rev="178"
+   name="InstockWindow.java"
+   text-time="2012-07-05T08:36:17.560651Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="8ee4859a3ec175480fd5713625b15bc7"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.654772Z"/>
+<entry
+   committed-rev="185"
+   name="ModifyPasswordWindow.java"
+   text-time="2012-07-05T08:36:17.545032Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="654232552ea51abf6fd2877a638277c6"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.639154Z"/>
+<entry
+   committed-rev="178"
+   name="SelectOutstockWindow.java"
+   text-time="2012-07-05T08:36:17.638744Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="062722c1963e933e621df13e7735676b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.889051Z"/>
+<entry
+   committed-rev="181"
+   name="OutstockWindow.java"
+   text-time="2012-07-05T08:36:17.623125Z"
+   committed-date="2012-06-20T01:23:46.677905Z"
+   checksum="127b5e83cd54858a7a7468b0bd4796cf"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.842195Z"/>
+<entry
+   committed-rev="173"
+   name="OtherDataWindow.java"
+   text-time="2012-07-05T08:36:17.607507Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="6f636e8c49257a8a5c6a3b263aba1dd8"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.732865Z"/>
+<entry
+   committed-rev="187"
+   name="SelectUserWindow.java"
+   text-time="2012-07-05T08:36:17.669981Z"
+   committed-date="2012-06-21T05:30:41.352017Z"
+   checksum="042596c2ca6204d68d37de8d087655d0"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.951526Z"/>
+<entry
+   committed-rev="173"
+   name="ModifySalerWindow.java"
+   text-time="2012-07-05T08:36:17.654363Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="37f385236913c2b89360a6dddf5031ce"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:16.935907Z"/>
+<entry
+   committed-rev="173"
+   name="AddSalerWindow.java"
+   text-time="2012-07-05T08:36:17.685600Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ddec86dfb6c9b69438e4900663e0798b"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.014000Z"/>
+<entry
+   committed-rev="173"
+   name="SelectProductWindow.java"
+   text-time="2012-07-05T08:36:17.701218Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="ba52a474bd8e4cbf9bf5beee1a80891a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.029619Z"/>
+<entry
+   committed-rev="173"
+   name="ModifyBtnClickEventListener.java"
+   text-time="2012-07-05T08:36:17.716837Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="f8f568c51ad4e0b3b04409321639284a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.045237Z"/>
+<entry
+   committed-rev="185"
+   name="CustomerDetailWindow.java"
+   text-time="2012-07-05T08:36:17.732456Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="2d007a1f0d87b9b89f8dc5abb158d088"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.092093Z"/>
+<entry
+   committed-rev="185"
+   name="AddUserWindow.java"
+   text-time="2012-07-05T08:36:17.748074Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="536f95dc7bb3818bbca15b7e39e0fd72"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.107712Z"/>
+<entry
+   committed-rev="197"
+   name="StockStatusWindow.java"
+   text-time="2012-07-05T08:36:17.763693Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="d4d0041bc5441dc98c15aa31ec824c29"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.170186Z"/>
+<entry
+   committed-rev="173"
+   name="ModifyProductWindow.java"
+   text-time="2012-07-05T08:36:17.779311Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="32500302ec468832bfecfe0c7458a14d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.217042Z"/>
+<entry
+   committed-rev="189"
+   name="AddProductWindow.java"
+   text-time="2012-07-05T08:36:17.794930Z"
+   committed-date="2012-06-21T06:14:44.476800Z"
+   checksum="1fb83531e33a475dc1ced9ebc5daeb65"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.263898Z"/>
+<entry
+   committed-rev="173"
+   name="GenerateBarCodeEventListener.java"
+   text-time="2012-07-05T08:36:17.810549Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="1059885fb3d9af85d0027d7042bd383a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.341991Z"/>
+<entry
+   committed-rev="197"
+   name="InstockDetailWindow.java"
+   text-time="2012-07-05T08:36:17.826167Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="deeb67e641f27be2b7d391e5f9dfd418"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.357609Z"/>
+<entry
+   committed-rev="197"
+   name="OutstockDetailWindow.java"
+   text-time="2012-07-05T08:36:17.841786Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="c92ee291adf7fa1d33531bdbf17443cb"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.388846Z"/>
+<entry
+   committed-rev="185"
+   name="SelectCustomerWindow.java"
+   text-time="2012-07-05T08:36:17.857404Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="3115ce95871627e0499db0e0c691bb41"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.435702Z"/>
+<entry
+   committed-rev="173"
+   name="SelectProdComboEventListener.java"
+   text-time="2012-07-05T08:36:17.873023Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="37925a650d25bcca53e55fc1b8abc799"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.482558Z"/>
+<entry
+   committed-rev="173"
+   name="SelectSalerWindow.java"
+   text-time="2012-07-05T08:36:17.888642Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="4c5b724e9ef4b03feffe9bb5b737d847"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:17.498177Z"/>
+</wc-entries>

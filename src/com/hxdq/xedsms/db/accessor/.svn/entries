@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2012-06-21T00:48:35.937802Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/src/com/hxdq/xedsms/db/accessor"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="185"
+   name="UserAccessor.java"
+   text-time="2012-07-05T08:36:15.249098Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="ddff5073252842c157287779c4eaa546"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:14.999201Z"/>
+<entry
+   committed-rev="173"
+   name="CustomerAccessor.java"
+   text-time="2012-07-05T08:36:15.264717Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="a374ea4a91cc61a238099047452d917a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.077294Z"/>
+<entry
+   committed-rev="185"
+   name="ConstAccessor.java"
+   text-time="2012-07-05T08:36:15.280335Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="43ab365b1d3cb29b46de46b40eed8ef9"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.108531Z"/>
+<entry
+   committed-rev="173"
+   name="SalerAccessor.java"
+   text-time="2012-07-05T08:36:15.295954Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="bbe8986bf97f28a47c1746a647321437"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.139768Z"/>
+<entry
+   committed-rev="173"
+   name="StockStatusAccessor.java"
+   text-time="2012-07-05T08:36:15.311573Z"
+   committed-date="2012-06-19T03:37:19.228189Z"
+   checksum="6af752e0b5f7bba4330c1eb89428c730"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.155387Z"/>
+<entry
+   committed-rev="178"
+   name="InstockAccessor.java"
+   text-time="2012-07-05T08:36:15.327191Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="b95980aa5ca89bf486485bbb8b3a22f7"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.202242Z"/>
+<entry
+   committed-rev="178"
+   name="OutstockAccessor.java"
+   text-time="2012-07-05T08:36:15.342810Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="6ed44a4f2f6481c5583c3b3e30d80b81"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:15.233480Z"/>
+</wc-entries>

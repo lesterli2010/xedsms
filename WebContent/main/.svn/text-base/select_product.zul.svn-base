@@ -1,0 +1,50 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="contentWin" title="选择客户" border="normal"
+		use="com.hxdq.xedsms.web.window.SelectProductWindow">
+		<div align="center" width="100%">
+			<hbox align="center" visible="false">
+				<textbox id="name" width="480" />
+				<button id="searchBtn" label="按姓名查询"
+					onClick="contentWin.search()" />
+			</hbox>
+			<div width="80%" align="left">
+				<hbox>
+				<label id="recNumLabel" value="记录个数:" />
+				<label id="countLabel"/>
+				<label id="currentPageLabel" value="当前页：" />
+				<label id="pageLabel"/>
+				</hbox>
+				<grid id="listGrid" align="center"
+					model="${contentWin.listModel}"
+					rowRenderer="${contentWin.listRenderer}">
+					<columns>
+						<column label="索引" width="8%"/>
+						<column label="产品名" width="10%"/>
+						<column label="灯口规格" width="10%"/>
+						<column label="型号" width="10%"/>
+						<column label="色温" width="10%"/>
+					</columns>
+				</grid>
+
+				<grid style="border:0px;">
+					<rows style="border:0px;">
+						<row style="border:0px;">
+							<div align="left">
+								<button id="delBtn" label="删除所选项"
+									onClick="contentWin.delete()" image="/img/Delete.png"/>
+							</div>
+							<div align="right" visible="false">
+								<button label="&lt;&lt;" id="prevBtn"
+									onClick="contentWin.previous()" image="/img/previous.gif"/>
+								<button label="&gt;&gt;" id="nextBtn"
+									onClick="contentWin.next()" image="/img/next.gif"/>
+							</div>
+						</row>
+					</rows>
+				</grid>
+			</div>
+
+		</div>
+	</window>
+</zk>

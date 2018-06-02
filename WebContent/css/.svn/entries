@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="197"
+   name=""
+   committed-date="2012-06-25T01:29:47.025444Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/WebContent/css"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="197"
+   name="ngdirwebportal.css.dsp"
+   text-time="2012-07-05T08:36:41.535202Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="9aa64bd1fb4e1a89e8cfd0b1c45fe227"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:41.519583Z"/>
+</wc-entries>

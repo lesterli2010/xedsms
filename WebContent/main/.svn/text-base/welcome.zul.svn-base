@@ -1,0 +1,8 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="contentWin">
+		<div align = "center">
+		<label value="欢迎使用潍坊恒信电器XED节能灯销售管理系统" style="font-weight:bold;font-size:18pt"/>
+		</div>
+	</window>
+</zk>

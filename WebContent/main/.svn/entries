@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="197"
+   name=""
+   committed-date="2012-06-25T01:29:47.025444Z"
+   url="svn://135.252.134.140:9999/auto/trunk/xedsms/WebContent/main"
+   last-author="zhiqiang"
+   kind="dir"
+   uuid="35030443-6ac1-0410-8d88-83a563d5b1a3"
+   repos="svn://135.252.134.140:9999/auto"
+   revision="246"/>
+<entry
+   committed-rev="187"
+   name="modify_customer.zul"
+   text-time="2012-07-05T08:36:20.387618Z"
+   committed-date="2012-06-21T05:30:41.352017Z"
+   checksum="872371a281765050006c26b63ce78998"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.559832Z"/>
+<entry
+   committed-rev="178"
+   name="select_instock.zul"
+   text-time="2012-07-05T08:36:20.418855Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="63e6691012885dad129a0eeb1e7391dc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.700399Z"/>
+<entry
+   committed-rev="187"
+   name="add_customer.zul"
+   text-time="2012-07-05T08:36:20.418855Z"
+   committed-date="2012-06-21T05:30:41.352017Z"
+   checksum="5a24a9ed99bfe46e83cd91fb79296575"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.653543Z"/>
+<entry
+   committed-rev="185"
+   name="modify_password.zul"
+   text-time="2012-07-05T08:36:20.403236Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="c0019826e87a1d35ca713b75a2ebcb46"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.606688Z"/>
+<entry
+   committed-rev="178"
+   name="select_outstock.zul"
+   text-time="2012-07-05T08:36:20.465711Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="469b9d26f9e999f8208ff5c3b839c2c0"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.809729Z"/>
+<entry
+   committed-rev="178"
+   name="instock.zul"
+   text-time="2012-07-05T08:36:20.450092Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="1d18c4bb5b35fa627fc15d00a678555e"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.794111Z"/>
+<entry
+   committed-rev="197"
+   name="other_data.zul"
+   text-time="2012-07-05T08:36:20.434473Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="9a4b55f7678f0eb2c18f0cdcd19bd14f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.747255Z"/>
+<entry
+   committed-rev="178"
+   name="outstock.zul"
+   text-time="2012-07-05T08:36:20.481329Z"
+   committed-date="2012-06-20T00:28:17.953862Z"
+   checksum="9a543f7b59d807592d2b0cf24a3f251c"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.856585Z"/>
+<entry
+   committed-rev="185"
+   name="select_user.zul"
+   text-time="2012-07-05T08:36:20.512566Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="1a355ef8dd21449f85749721f00d0ad5"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.919060Z"/>
+<entry
+   committed-rev="168"
+   name="modify_saler.zul"
+   text-time="2012-07-05T08:36:20.496948Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="26ccd8c7be14d96a4af152f70e16b3f4"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.887822Z"/>
+<entry
+   committed-rev="168"
+   name="add_saler.zul"
+   text-time="2012-07-05T08:36:20.528185Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="8e7873044707ccac706d9b8c4dfae4d0"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.934678Z"/>
+<entry
+   committed-rev="168"
+   name="select_product.zul"
+   text-time="2012-07-05T08:36:20.528185Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="4ebcf5f346824b246bb9d434c6759edc"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:19.981534Z"/>
+<entry
+   committed-rev="197"
+   name="customer_detail.zul"
+   text-time="2012-07-05T08:36:20.543804Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="2b7af29019527fc84db5cb4a23486483"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.059627Z"/>
+<entry
+   committed-rev="191"
+   name="main.zul"
+   text-time="2012-07-05T08:36:20.559422Z"
+   committed-date="2012-06-21T08:45:18.473790Z"
+   checksum="e3a92ced647a46a5e242585d4ca7413a"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.075246Z"/>
+<entry
+   committed-rev="197"
+   name="stock_status.zul"
+   text-time="2012-07-05T08:36:20.575041Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="d7159a6a8bb5eb9e389c43b971a8e483"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.090864Z"/>
+<entry
+   committed-rev="168"
+   name="modify_product.zul"
+   text-time="2012-07-05T08:36:20.590659Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="94b9bc74aa2da497a07397fec1ffd6b6"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.106483Z"/>
+<entry
+   committed-rev="168"
+   name="add_product.zul"
+   text-time="2012-07-05T08:36:20.606278Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="686ac0651eccec60f015848a1d3d449d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.153339Z"/>
+<entry
+   committed-rev="197"
+   name="welcome.zul"
+   text-time="2012-07-05T08:36:20.621897Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="3b6d9d040e10b874a56993ee83fb8d86"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.200194Z"/>
+<entry
+   committed-rev="197"
+   name="instock_detail.zul"
+   text-time="2012-07-05T08:36:20.637515Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="025a99a0fc0a4c71e1469a208634cce8"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.231432Z"/>
+<entry
+   committed-rev="197"
+   name="outstock_detail.zul"
+   text-time="2012-07-05T08:36:20.653134Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="d4cb0eadcc75a425547aef11ce2fbaf2"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.247050Z"/>
+<entry
+   committed-rev="187"
+   name="select_customer.zul"
+   text-time="2012-07-05T08:36:20.653134Z"
+   committed-date="2012-06-21T05:30:41.352017Z"
+   checksum="3a909481156ce73e4ba284d857e55882"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.262669Z"/>
+<entry
+   committed-rev="185"
+   name="create_user.zul"
+   text-time="2012-07-05T08:36:20.668752Z"
+   committed-date="2012-06-21T00:48:35.937802Z"
+   checksum="e645d7487375d76ed4c4b7a74585a353"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.278287Z"/>
+<entry
+   committed-rev="197"
+   name="print_stock_status.zul"
+   text-time="2012-07-05T08:36:20.684371Z"
+   committed-date="2012-06-25T01:29:47.025444Z"
+   checksum="437efdb77d3b6241d717a81392307f2f"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.309525Z"/>
+<entry
+   committed-rev="168"
+   name="select_saler.zul"
+   text-time="2012-07-05T08:36:20.699990Z"
+   committed-date="2012-06-19T03:35:40.697822Z"
+   checksum="0cdcd73c52b6a174a0c5f841638c039d"
+   last-author="zhiqiang"
+   kind="file"
+   prop-time="2012-07-05T08:36:20.356380Z"/>
+</wc-entries>

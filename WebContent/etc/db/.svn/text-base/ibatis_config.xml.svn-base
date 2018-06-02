@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN" "ibatis-3-config.dtd">
+<configuration>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql://localhost:3306/xedsms" />
+				<property name="driver.user" value="root" />
+				<property name="driver.password" value="NEWSYS" />
+				<property name="driver.useUnicode" value="true" />
+				<property name="driver.characterEncoding" value="UTF-8" />	
+				<property name="poolMaximumActiveConnections" value="10" />
+				<property name="poolMaximumIdleConnections" value="5" />
+			</dataSource>
+		</environment>
+	</environments>
+<mappers>
+        <mapper resource="com/hxdq/xedsms/db/model/CityMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/CustomerMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/DkspecinfoMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/InstockMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/InstockproductMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/OutstockMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/OutstockProductMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/ProductinfoMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/ProvinceMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/SalerMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/SpecinfoMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/StockstatusMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/UserauthorityMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/UserMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/UsageinfoMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/model/ProductbatchMapper.xml"/>
+        
+        <mapper resource="com/hxdq/xedsms/db/prisql/CustomerMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/prisql/InstockMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/prisql/StockstatusMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/prisql/OutstockMapper.xml"/>
+        <mapper resource="com/hxdq/xedsms/db/prisql/ProductbatchMapper.xml"/>
+</mappers>
+
+</configuration>

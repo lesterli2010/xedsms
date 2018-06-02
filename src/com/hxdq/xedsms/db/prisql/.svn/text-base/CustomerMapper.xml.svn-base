@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hxdq.xedsms.db.prisql.CustomerMapper" >
+  <resultMap id="BaseResultMap" type="com.hxdq.xedsms.db.model.Customer" >
+    <id column="customer_id" property="customerId" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="cellphone" property="cellphone" jdbcType="CHAR" />
+    <result column="homephone" property="homephone" jdbcType="CHAR" />
+    <result column="officephone" property="officephone" jdbcType="CHAR" />
+    <result column="gender" property="gender" jdbcType="TINYINT" />
+    <result column="birthdate" property="birthdate" jdbcType="TIMESTAMP" />
+    <result column="companyname" property="companyname" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="salerid" property="salerid" jdbcType="INTEGER" />
+    <result column="interview" property="interview" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="updatetime" property="updatetime" jdbcType="TIMESTAMP" />
+    <result column="provinceid" property="provinceid" jdbcType="INTEGER" />
+    <result column="cityid" property="cityid" jdbcType="INTEGER" />
+  </resultMap>
+    
+  <select id="get_all_limit" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.CustomerMapper.BaseResultMap">
+		select * from customer order by updatetime desc limit #{start_index},#{max_result} 
+	</select>
+	
+	 <select id="get_all_by_name_limit" parameterType="HashMap" resultType="List" 
+		resultMap="com.hxdq.xedsms.db.prisql.CustomerMapper.BaseResultMap">
+		select * from customer where name like BINARY CONCAT('%',#{name},'%') order by updatetime desc limit #{start_index},#{max_result}
+	</select>
+	
+	<select id="get_count_by_name" parameterType="HashMap" resultType="Integer">
+		select count(customer_id) from customer where name like BINARY CONCAT('%',#{name},'%')
+	</select>
+</mapper>
